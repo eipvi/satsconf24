@@ -5,6 +5,7 @@
 @import "@/app/styles/containers/boxtabelaingresso.module.css";
 @import "@/app/styles/containers/boxingresso.module.css";
 @import "@/app/styles/containers/boxgarante.module.css";
+@import "@/app/styles/containers/error.module.css";
 @import "@/app/styles/containers/convidadospaginaprincipal.module.css";
 @import "@/app/styles/containers/boxfaq.module.css";
 @import "@/app/styles/containers/pfaq.module.css";
