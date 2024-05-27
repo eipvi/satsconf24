@@ -22,6 +22,14 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description}></meta>
+        <meta name="keywords" content={metadata.keywords}></meta>
+        <meta property="og:title" content={metadata.openGraph.title}></meta>
+        <meta property="og:description" content={metadata.openGraph.description}></meta>
+        <meta property="og:type" content={metadata.openGraph.type}></meta>
+        <meta property="og:url" content={metadata.openGraph.url}></meta>
+        {metadata.openGraph.images.map((image, index) => (
+          <meta key={index} property="og:image" content={image}></meta>
+        ))}
       </head>
       <body>
       {isMaintenanceMode && isHomePage ? (
