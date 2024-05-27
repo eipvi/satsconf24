@@ -15,7 +15,7 @@ const BoxPrincipal = () => {
                 <h1>MAIOR EVENTO 100% BITCOIN DO BRASIL</h1>
                 {/* gap de 16 com container de botão */}
                 <div className="sc-gap-16 container-btn">
-                  <BtnIngresso url="/ingressos">COMPRAR INGRESSO</BtnIngresso>
+                  <BtnIngresso url="https://satsconf.vercel.app/ingressos">COMPRAR INGRESSO</BtnIngresso>
                   {/* botão do container principal */}
                   <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
                 </div>

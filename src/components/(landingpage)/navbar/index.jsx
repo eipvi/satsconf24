@@ -48,7 +48,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div>
-            <BtnIngresso url="https://www.example.com">
+            <BtnIngresso url="https://satsconf.vercel.app/ingressos">
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>

@@ -16,7 +16,7 @@ const BoxPrincipalPalestrantes = () => {
             </h2>
           </div>
           <div className="sc-gap-8 container-btn">
-            <BtnIngresso url="https://www.example.com">
+            <BtnIngresso url="https://satsconf.vercel.app/ingressos">
               COMPRAR INGRESSO
             </BtnIngresso>
             {/* botão do container principal */}

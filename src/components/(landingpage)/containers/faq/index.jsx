@@ -74,7 +74,7 @@ const data = [
   },
   {
     question:
-      "Quais criptomoedas/criptoativos serão tratados na Satsconf?",
+      "Quais ativos serão tratados na Satsconf?",
     answer:
     (
     <>
