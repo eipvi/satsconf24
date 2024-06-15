@@ -5,7 +5,7 @@ const useFetch = () => {
 
   const addDados = async (novoDado) => {
     try {
-      const response = await fetch("http://localhost:3000/message", {
+      const response = await fetch("https://backend-satsconf.vercel.app/message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
