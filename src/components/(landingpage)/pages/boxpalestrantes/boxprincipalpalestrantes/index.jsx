@@ -1,10 +1,22 @@
+"use client"
+import React from "react";
+
+import { useContext } from "react";
+import { ModalContext } from "@/providers/ModalContext";
+
+
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
 
-
-
 const BoxPrincipalPalestrantes = () => {
+
+  const {handleModalVisible} = useContext(ModalContext);
+
+  const handleOpenModal= ()=>{
+    handleModalVisible();
+  };
+
   return (
     <section className="bgContainerImageConvidadosPage">
       <div className="bgContainerConvidadosDestaque ">
@@ -20,14 +32,14 @@ const BoxPrincipalPalestrantes = () => {
               COMPRAR INGRESSO
             </BtnIngresso>
             {/* botão do container principal */}
-            <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
+            <BtnNovidades onClick={handleOpenModal} >RECEBER NOVIDADES</BtnNovidades>
           </div>
         </div>
         <div>
         <Card />
        
         </div>
-     
+  
       </div>
     </section>
   );

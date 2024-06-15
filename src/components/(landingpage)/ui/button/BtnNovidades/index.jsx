@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 
-const BtnNovidades = ({ url, children }) => {
+const BtnNovidades = ({ url, children, onClick }) => {
+  
     return (
-      <a href={url} className="btnNovidades sora-medium" target="_blank" rel="button">
+      <a href={url} onClick={onClick} className="btnNovidades sora-medium" target="_blank" rel="button" >
         {children}
       </a>
     );

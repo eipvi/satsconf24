@@ -1,8 +1,22 @@
+"use client"
+import React from "react";
+
+import { useContext } from "react";
+import { ModalContext } from "@/providers/ModalContext";
+
+
 import MeuComponenteEvento from "@/components/(landingpage)/images/MeuComponenteEvento/index.jsx";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index.jsx";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/index.jsx";
 
 const BoxPrincipal = () => {
+
+  const {handleModalVisible} = useContext(ModalContext);
+
+  const handleOpenModal= ()=>{
+    handleModalVisible();
+  };
+
   return (
     <section id="BoxPrincipal">
       <div className="bgContainerImg">
@@ -17,7 +31,7 @@ const BoxPrincipal = () => {
                 <div className="sc-gap-16 container-btn">
                   <BtnIngresso url="https://satsconf.vercel.app/ingressos">COMPRAR INGRESSO</BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
+                  <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
                 </div>
               </div>
 

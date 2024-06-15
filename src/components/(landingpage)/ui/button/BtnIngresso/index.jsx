@@ -4,7 +4,7 @@ import "@/app/globals.css";
 
 const BtnIngresso = ({ url, children }) => {
   return (
-    <Link href={url} className='btnIngresso sora-medium' target="_blank" rel="button">
+    <Link href={url} className='btnIngresso sora-medium' target="_self" rel="button">
       {children}
     </Link>
   );
