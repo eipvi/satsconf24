@@ -1,6 +1,7 @@
 import FAQcontato from "@/components/(landingpage)/containers/faq/facontato";
 import ImageContato from "@/components/(landingpage)/images/ImageContato";
 
+
 const Contato = ({ children }) => {
   return (
     <section id="Contato">
