@@ -81,7 +81,7 @@ const ConvidadosSats = () => {
       id: 5,
       name: "Rapha Zagury",
       description: "Atualmente, Raphael atua como CIO e Head of Research na Swan. Antes de ingressar na Swan, ele fundou e atuou como CFO para Open Co, onde liderou com sucesso a empresa através de várias rodadas de financiamento. Antes da Open Co, Raphael fundou a One Partners, uma boutique de fusões e aquisições e firma de gestão de patrimônio no Brasil. Originalmente do Rio de Janeiro, Brasil, Raphael obteve seu MBA na Yale School of Management e seu diploma de Economia no Instituto Brasileiro de Mercado de Capitais (IBMEC).      ",
-      image: "./rapha.avif",
+      image: "./rapha.png",
       skills: "Swan",
       socialMedia: {
         twitter: "https://twitter.com/alphaazeta",
