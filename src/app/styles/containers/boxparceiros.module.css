@@ -13,8 +13,8 @@
 }
 
 .bgContainerParceiros ul li img {
-    width: 140px;
-    height: 36px;
+    width: 96px;
+    height: 28px;
 }
 
 .boxParceiros {
@@ -31,3 +31,20 @@
     align-items: center;
     flex-direction: row;
 }
+
+.bgContainerParceiros ul {
+    display: flex;
+    animation: scroll-horizontal 30s linear infinite;
+    
+  }
+  
+  @keyframes scroll-horizontal {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+    
+  }
+  

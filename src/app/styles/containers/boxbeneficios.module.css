@@ -24,3 +24,28 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* animação btnBeneficios */
+/* styles.css */
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(30%);
+  }
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(30%);
+  }
+}
+
+
+
+.btnBeneficios {
+  display: inline-block; /* Garante que a animação afete o botão individualmente */
+  animation: moveLeftRight 10s linear infinite;
+}

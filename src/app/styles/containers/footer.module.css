@@ -1,74 +1,92 @@
-
-.bgContainerFooter {
-    width: 100%;
-    height: 408px;
-
-  }
-  
-  .footer {
-    position: absolute;
-      width: 100%;
-      background-color: rgb(27, 27, 27); /* Fundo branco */
-      border-top: 16px solid; /* Adicione sua cor ou estilo de borda aqui */
-      border-image: linear-gradient(90deg, #B32FE0 0, #FFB126 115.16%); /* Gradiente linear como borda */
-      border-image-slice: 1; /* Certifique-se de ajustar a largura da borda conforme necessário */
-      color: rgb(255, 255, 255); /* Cor do texto */
-      padding: 16px;
-  }
-  
-  .footer ul li {
-    display: flex;
-    align-items: center;
-
-  }
-  .footer h2,.footer p,.footer a, .footer ul li {
-      color: white;
-      margin: 8px;
-  }
-  
-  .footer svg {
-    margin: 8px;
-  }
-  .footerContainer div{
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin: 30px 0;
-      align-items: center;
-  }
-  
-  .footerContainer .collumn{
-      flex-direction: column;
-      align-items: normal;
-  
-  }
-  .containerLogoFooter {
-    display: flex;
-    width: 200px;
-  }
-  
-  /* Adicionando regras de estilo responsivas */
-  
-  @media screen and (max-width: 768px) {
-
-
 .bgContainerFooter {
   width: 100%;
-  height: 520px;
+  height: 408px;
 
 }
 
+.footer {
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+  /* Fundo branco */
+  border-top: 16px solid;
+  /* Adicione sua cor ou estilo de borda aqui */
+  border-image: linear-gradient(90deg, #B32FE0 0, #FFB126 115.16%);
+  /* Gradiente linear como borda */
+  border-image-slice: 1;
+  /* Certifique-se de ajustar a largura da borda conforme necessário */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 16px;
+}
+
+.footer ul li {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer h2,
+.footer p,
+.footer a,
+.footer ul li {
+  color: white;
+  margin: 8px;
+}
+
+.footer svg {
+  margin: 8px;
+}
+
+.footerContainer div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.footerContainer .collumn {
+  flex-direction: column;
+  align-items: normal;
+
+}
 
 .containerLogoFooter {
-  flex-direction: column;
+  display: flex;
+  width: 200px;
 }
 
-      .footerContainer {
-        flex-direction: column; /* Alinhar os elementos em coluna em telas menores */
-        align-items: center; /* Centralizar os elementos */
-      }
-    
-      .footerContainer div {
-        margin-bottom: 16px; /* Adicionar espaço entre as seções */
-      }
-    }
+/* Adicionando regras de estilo responsivas */
+
+@media screen and (max-width: 768px) {
+
+
+  .bgContainerFooter {
+    width: 100%;
+    height: 520px;
+
+  }
+
+
+  .containerLogoFooter {
+    flex-direction: column;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    /* Alinhar os elementos em coluna em telas menores */
+    align-items: center;
+    /* Centralizar os elementos */
+  }
+
+  .footerContainer div {
+    margin-bottom: 16px;
+    /* Adicionar espaço entre as seções */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+  .bgContainerFooter {
+    height: auto;
+  }
+}

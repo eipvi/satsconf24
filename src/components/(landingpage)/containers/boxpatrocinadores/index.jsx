@@ -11,27 +11,27 @@ const BoxPatrocinadores = () => {
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
               </ul>
             </div>
@@ -40,27 +40,27 @@ const BoxPatrocinadores = () => {
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
               </ul>
             </div>
@@ -69,27 +69,27 @@ const BoxPatrocinadores = () => {
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
               </ul>
             </div>
@@ -98,27 +98,27 @@ const BoxPatrocinadores = () => {
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
                 <li>
                   {" "}
-                  <img src="empresa-x.png" alt="empresa x" />
+                  <img src="slack.png" alt="empresa x" />
                 </li>
               </ul>
             </div>

@@ -51,7 +51,7 @@
 
 .bgContainerPrincipal {
   width: 110rem 0;
-  height: 52rem;
+  height: 40rem;
   padding: 15rem 0 15rem 0;
 }
 
@@ -69,6 +69,7 @@
 
   .bgContainerPrincipal {
     width: 380px;
+    height: 35rem;
   }
   .bgContainer {
     width: 442px;
@@ -124,12 +125,17 @@
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
 
   .sc-bg-container {
-    width: 18.75; /* Usando a largura total */
+    width: 18.75rem; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 
   .btningresso-img {
     padding: 10px; /* Reduzindo o padding da imagem */
+  }
+
+  .bgContainerPrincipal {
+    width: 380px;
+    height: 34rem;
   }
 }
 
@@ -153,6 +159,8 @@
   .btningresso-img {
     padding: 15px; /* Reduzindo o padding da imagem */
   }
+
+  
 }
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
@@ -204,7 +212,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bgContainerMargin {
-    margin-top: 91px;
+    margin-top: 72px;
   }
 
   .sc-bg-container {

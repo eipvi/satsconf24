@@ -9,41 +9,108 @@ const BoxParceiros = () => {
         <ul className="boxListParceiros">
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="slack.png" alt="slack" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="netflix.png" alt="netflix" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="google.png" alt="google" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="unicef.png" alt="unicef" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="adobe.png" alt="adobe" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="airbnb.png" alt="airbnb" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="microsoft.png" alt="microsoft" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="slack.png" alt="slack" />
           </li>
           <li>
             {" "}
-            <img src="empresa-x.png" alt="empresa x" />
+            <img src="netflix.png" alt="netflix" />
           </li>
+          <li>
+            {" "}
+            <img src="google.png" alt="google" />
+          </li>
+          <li>
+            {" "}
+            <img src="unicef.png" alt="unicef" />
+          </li>
+          <li>
+            {" "}
+            <img src="adobe.png" alt="adobe" />
+          </li>
+          
         </ul>
+        <ul className="boxListParceiros">
+          <li>
+            {" "}
+            <img src="airbnb.png" alt="airbnb" />
+          </li>
+          <li>
+            {" "}
+            <img src="microsoft.png" alt="microsoft" />
+          </li>
+          <li>
+            {" "}
+            <img src="slack.png" alt="slack" />
+          </li>
+          <li>
+            {" "}
+            <img src="netflix.png" alt="netflix" />
+
+          </li>
+          <li>
+            {" "}
+            <img src="google.png" alt="google" />
+          </li>
+          <li>
+            {" "}
+            <img src="unicef.png" alt="unicef" />
+          </li>
+          <li>
+            {" "}
+            <img src="adobe.png" alt="adobe" />
+          </li>
+          <li>
+            {" "}
+            <img src="slack.png" alt="slack" />
+          </li>
+          <li>
+            {" "}
+            <img src="netflix.png" alt="netflix" />
+          </li>
+          <li>
+            {" "}
+            <img src="google.png" alt="google" />
+          </li>
+          <li>
+            {" "}
+            <img src="unicef.png" alt="unicef" />
+          </li>
+          <li>
+            {" "}
+            <img src="adobe.png" alt="adobe" />
+          </li>
+          
+        </ul>
+        
+        
       </div>
     </section>
   );

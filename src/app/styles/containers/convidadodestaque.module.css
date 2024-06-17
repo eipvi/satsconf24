@@ -1,9 +1,10 @@
-#Palestrantes {
+
+#PagPalestrantes {
   width: 100%;
-  height: 230rem;
+  height: auto;
 }
 
-#Palestrantes img {
+#PagPalestrantes img {
   filter: grayscale(0.2);
   image-rendering: auto;
 }
@@ -45,20 +46,15 @@
 .boxBlocoConvidados {
   margin: 0 auto;
 }
-@media screen and (min-width: 280px) and (max-width: 653px) {
-  .containerConvidadosDestaque img {
-    width: 268px;
-    height: 320px;
-  }
-}
+
+
 
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
-  #Palestrantes {
-    width: 100%;
-    height: 616rem;
-    max-height: auto;
+  #PagPalestrantes {
+    height: 1600vh;
   }
+
 
   .boxBlocoConvidados {
     margin-top: 0;
@@ -95,7 +91,22 @@
   }
 }
 
+/* Para tablets */
+
+
+
+@media screen and (min-width: 280px) and (max-width: 653px) {
+ 
+  .containerConvidadosDestaque img {
+    width: 268px;
+    height: 320px;
+  }
+}
+
 @media screen and (min-width: 518px) and (max-width: 658px) {
+
+
+  
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
@@ -105,6 +116,14 @@
   .bgContainerConvidadosPaginaPrincipal {
     height: 220rem;
   }
+}
+@media screen and (min-width: 596px) and (max-width: 1024px) {
+
+  #PagPalestrantes {
+    height: 650vh;
+  }
+
+  
 }
 
 @media screen and (min-width: 628px) and (max-width: 673px) {
@@ -117,25 +136,36 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+  #PagPalestrantes {
+    height: 1300vh;
+  }
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1280px) {
+  #PagPalestrantes {
+    height: 680vh;
+  }
+
+  .bgContainerConvidadosPaginaPrincipal {
+    height: 168rem;
+  }
+
+}
+
+@media screen and (min-width: 884px) and (max-width: 1104px) {
+
   .bgContainerConvidadosPaginaPrincipal {
     height: 168rem;
   }
 }
 
-@media screen and (min-width: 884px) and (max-width: 1104px) {
-  .bgContainerConvidadosPaginaPrincipal {
-    height: 168rem;
-  }
-}
 @media screen and (min-width: 820px) and (max-width: 1180px) {
-  #Palestrantes .profile-card {
+  
+  #PagPalestrantes .profile-card {
     width: 100%;
   }
 
@@ -148,19 +178,31 @@
   }
 }
 @media screen and (min-width: 912px) and (max-width: 1368px) {
+  
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
 }
 
 @media screen and (min-width: 1268px) and (max-width: 2850px) {
+
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
 }
 
+
 @media screen and (min-width: 2858px) {
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
+  }
+}
+
+
+/* Para desktops */
+@media screen and (min-width: 1025px) {
+  #PagPalestrantes {
+    height: 400vh; /* Mantém a altura original para telas maiores */
+  
   }
 }

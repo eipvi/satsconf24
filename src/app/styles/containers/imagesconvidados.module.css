@@ -1,128 +1,111 @@
-
-#Palestrantes.profile-card {
+#PagPalestrantes.profile-card {
   width: 220vh;
-
 }
 .ContainerImagemConvidadosDestaque {
-    margin: -20px auto;
-   
-  }
-  
-  
- .palestrante-destaque img {
-    width: 368px;
-    height: 420px;
-    border: none;
-    object-fit: cover;
-  }
+  margin: -20px auto;
+}
 
-  .palestrante-destaque img {
-    width: 385px;
-    height: 416px;
-  }
+.palestrante-destaque img {
+  width: 368px;
+  height: 420px;
+  border: none;
+  object-fit: cover;
+}
 
- .palestrante-global img {
+.palestrante-destaque img {
+  width: 385px;
+  height: 416px;
+}
+
+.palestrante-global img {
   width: 218px;
   height: 270px;
   object-fit: cover;
-  }
-  
-  .containerImagesBoxDestaque {
-    position: relative;
-    bottom: 36px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 194px;
-    height: 124px;
-    margin-bottom: 65px;
-    text-align: center;
-    justify-content: center;
-    background-color: white;
-    /* Fundo branco */
-    border-top: 5px solid;
-    /* Adicione sua cor ou estilo de borda aqui */
-    border-image: linear-gradient(90deg, #B32FE0 -363.21%, #FFB126 115.16%);
-    /* Gradiente linear como borda */
-    border-image-slice: 1;
-    /* Certifique-se de ajustar a largura da borda conforme necessário */
-    color: rgb(0, 0, 0);
-    /* Cor do texto */
-    cursor: pointer;
-  
-  }
-  
-  .containerImagesBoxDestaque h3 {
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    margin-top: 25px;
-    font-size: 18px;
-  
+}
+
+.containerImagesBoxDestaque {
+  position: relative;
+  bottom: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 194px;
+  height: 124px;
+  margin-bottom: 65px;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  /* Fundo branco */
+  border-top: 5px solid;
+  /* Adicione sua cor ou estilo de borda aqui */
+  border-image: linear-gradient(90deg, #b32fe0 -363.21%, #ffb126 115.16%);
+  /* Gradiente linear como borda */
+  border-image-slice: 1;
+  /* Certifique-se de ajustar a largura da borda conforme necessário */
+  color: rgb(0, 0, 0);
+  /* Cor do texto */
+  cursor: pointer;
+}
+
+.containerImagesBoxDestaque h3 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.ContainerImagemConvidadosDestaque span {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 25px 8px;
+}
+
+/* Estilos específicos para dispositivos móveis */
+
+@media screen and (max-width: 768px) {
+  .ContainerImagemConvidadosDestaque {
+    /* Margem para centralizar o grid */
+    gap: 16px;
+    max-width: 322px;
   }
 
-  .ContainerImagemConvidadosDestaque span {
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    margin: 25px 8px;
-  }
-  
-  /* Estilos específicos para dispositivos móveis */
-  @media screen and (max-width: 768px) {
-    .ContainerImagemConvidadosDestaque {
-            /* Margem para centralizar o grid */
-      gap: 16px;
-      max-width: 322px;
-    }
-
-
-  .containerConvidadosDestaque .palestrante-destaque img{
+  .containerConvidadosDestaque .palestrante-destaque img {
     width: 368px;
     height: 420px;
     border: none;
-    
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .palestrante-destaque img {
+    width: 318px;
+    height: 420px;
   }
 
-
-
+  .palestrante-global img {
+    width: 318px;
+    height: 420px;
   }
+}
 
-  @media screen and (min-width: 320px) and (max-width: 568px) {
-    .palestrante-destaque img {
-
-      width: 318px;
-      height: 420px;
-
-    
-    }
-
-    .palestrante-global img {
-      width: 318px;
-      height: 420px;
+@media screen and (min-width: 596px) and (max-width: 1024px) {
+  .palestrante-destaque img {
+    width: 340px;
   }
+  .palestrante-global img {
+    width: 340px;
+    height: 420px;
   }
+}
 
-  @media screen and (min-width: 596px) and (max-width: 1024px)  {
-
-    .palestrante-destaque img {
-      width: 340px;
-    }
-    .palestrante-global img {
-      width: 340px;
-      height: 420px;
+@media screen and (min-width: 912px) and (max-width: 1368px) {
+  #PagPalestrantes {
+    height: 500rem;
   }
+  #PagPalestrantes .profile-card {
+    width: 1206px;
+    max-width: 100%;
   }
-  @media screen and (min-width: 912px) and (max-width: 1368px) {
-    #Palestrantes {
-      height: 382rem;
-    }
-    #Palestrantes .profile-card {
-      width: 1206px;
-      max-width: 100%;
-  
-    }
-
-   
-  }
+}
