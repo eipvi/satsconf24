@@ -16,7 +16,7 @@ const CompraBtc = () => {
         <li>R$197,50</li>
         <li>
           <div className="buttonIngressoComprar">
-            <Link href="https://ingresso.satsconf.com.br/cart/41610780868743:1?storefront=true">
+            <Link href="https://ingresso.satsconf.com.br/cart/41678531788935:1?storefront=true">
               Comprar
             </Link>
           </div>
@@ -32,7 +32,7 @@ const CompraBtc = () => {
         <li>R$592,50</li>
         <li>
           <div className="buttonIngressoComprar">
-            <Link href="https://ingresso.satsconf.com.br/cart/41610777231495:1?storefront=true">
+            <Link href="https://ingresso.satsconf.com.br/cart/41678547320967:1?storefront=true">
               Comprar
             </Link>
           </div>
