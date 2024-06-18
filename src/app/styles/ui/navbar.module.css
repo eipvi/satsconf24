@@ -1,181 +1,271 @@
-
 .hamburgerBtn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: var(--white);
-    font-size: 1.5rem;
-    margin: 5px; /* Adicione um espaçamento à direita para separar o botão do logo */
-  }
-
-  /* Menu visível apenas em dispositivos móveis */
-  .navMenu.showMenu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 89px; /* Ajuste conforme necessário */
-    left: 111px;
-    width: 60%;
-    background-color: rgb(18 8 29 / 94%);
-    padding: 10px; /* Adicione espaçamento interno */
-    border-radius:  10px; /* Adicione borda arredondada */
-    box-shadow: 0px 4px 10px rgba(18, 8, 29, 0.6); /* Adicione uma sombra */
-    z-index: 202;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-  }
-  
-  .navMenu.showMenu li {
-    margin: 10px 0; /* Espaçamento entre os itens do menu */
-  }
-  
-.navContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    padding: 0 20px;
-    
-    
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.5rem;
+  margin: 5px; /* Adicione um espaçamento à direita para separar o botão do logo */
 }
 
-.navContainer ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
-}
-
-.navContainer ul li {
-    margin: 15px;
-    
-}
-
-
-.nav {
-    position: fixed;
-    top: 40px; 
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    z-index: 200;
-
-}
-
-
-.nav a{
-    color: var(--white);
-    font-size: 0.75rem;
-    line-height: 15.12px;
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-
-    
-}
-
-.navBorder {
-    width: 984px;
-    height: 112px;
-    border-radius: 100px;
-    border: 1px solid #fff;
-    background-color: rgba(18, 8, 29, 0.6);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-   
-}
-
-.nav.navBorder.navContainer.navMenu ul li{
+/* Menu visível apenas em dispositivos móveis */
+.navMenu.showMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 89px; /* Ajuste conforme necessário */
+  left: 111px;
+  width: 60%;
+  max-height: 80vh; /* Define a altura máxima para rolagem */
+  overflow-y: auto; /* Adiciona rolagem vertical */
+  background-color: rgb(18 8 29 / 94%);
+  padding: 10px; /* Adicione espaçamento interno */
+  border-radius: 10px; /* Adicione borda arredondada */
+  box-shadow: 0px 4px 10px rgba(18, 8, 29, 0.6); /* Adicione uma sombra */
+  z-index: 202;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
 
-/* 
+.navMenu.showMenu li {
+  margin: 10px 0; /* Espaçamento entre os itens do menu */
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.navContainer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navContainer ul li {
+  margin: 15px;
+}
+
+.nav {
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 200;
+}
+
+.nav a {
+  color: var(--white);
+  font-size: 0.75rem;
+  line-height: 15.12px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navBorder {
+  width: 984px;
+  height: 112px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: rgba(18, 8, 29, 0.6);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav.navBorder.navContainer.navMenu ul li {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  line-height: 15.12px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dropbtn li button {
+  background-color: none;
+  color: var(--white);
+  font-size: 0.75rem;
+  line-height: 15.12px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(18 8 29 / 94%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(18, 8, 29, 0.6);
+  z-index: 1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(48, 35, 61, 0.6);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.dropdown-content.show {
+  display: block;
+  max-height: 500px; /* Adjust as needed */
+  padding: 12px 0; /* Add padding back when visible */
+}
 /* Ajuste para dispositivos menores */
 @media screen and (max-width: 768px) {
+  .navMenu a {
+    font-size: 0.9em;
+  }
 
-  .navLogo{
+  .navLogo {
     margin: 0 5px 0 0;
   }
-   
-.nav {
+
+  .nav {
     max-width: 100%;
     justify-content: normal;
-}
-.navContainer ul {
+  }
+  .navContainer ul {
     display: none;
+  }
+
+  .navBorder {
+    width: 99%; /* Reduz a largura do contêiner */
+    padding: 10px; /* Adiciona um espaçamento interno menor */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navContainer {
+    flex-direction: row; /* Altera para layout de coluna em dispositivos menores */
+    align-items: center; /* Alinha os itens à esquerda */
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block; /* Garante que o dropdown fique visível em dispositivos móveis */
+  }
+
+  /*inicio */
+
+  .navBorder {
+    width: 99%; /* Reduz a largura do contêiner */
+    padding: 10px; /* Adiciona um espaçamento interno menor */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navContainer {
+    flex-direction: row; /* Altera para layout de coluna em dispositivos menores */
+    align-items: center; /* Alinha os itens à esquerda */
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: 100%;
+    display: block;
+  }
+
+  .dropdown-content a {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block; /* Garante que o dropdown fique visível em dispositivos móveis */
+  }
+
+  .navMenu.showMenu {
+    left: 0;
+    width: 100%;
+  }
+
+  /*fim*/
 }
-    .navBorder {
-      width: 99%; /* Reduz a largura do contêiner */
-      padding: 10px; /* Adiciona um espaçamento interno menor */
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .navContainer {
-      flex-direction: row; /* Altera para layout de coluna em dispositivos menores */
-      align-items: center; /* Alinha os itens à esquerda */
-    } 
 
+/* Ajuste para dispositivos menores */
+@media screen and (min-width: 768px) {
+  .hamburgerBtn {
+    display: none; /* Oculta o botão hamburguer em telas maiores */
   }
 
-  
-  /* Ajuste para dispositivos menores */
-  @media screen and (min-width: 768px){
-
-
-
-    .hamburgerBtn {
-      display: none; /* Oculta o botão hamburguer em telas maiores */
-    }
-  
-    .navMenu.showMenu {
-      display: none; /* Oculta o menu em telas maiores */
-    }
-    
+  .navMenu.showMenu {
+    display: none; /* Oculta o menu em telas maiores */
   }
-  @media screen and (min-width: 375px) and (max-width: 667px){
-.nav {
+}
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .nav {
     width: 37.5vh;
   }
-  
+}
+
+@media screen and (min-width: 414px) and (max-width: 896px) {
+  .nav {
+    width: 40.8vh;
   }
+}
 
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .nav {
+    width: 100%;
+  }
+}
 
-  @media screen and (min-width: 414px) and (max-width: 896px){
-    .nav {
-        width: 40.8vh;
-      }
-      
-      }
-  
-
-  @media screen and (min-width: 360px) and (max-width: 740px){
-    .nav {
-        width: 100%;
-      }
-      
-      }
-    
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px){
-  
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .nav {
     width: 96vh;
   }
-    .sc-bg-container {
+  .sc-bg-container {
     width: 438px;
   }
 
@@ -185,7 +275,7 @@
 }
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
-.nav {
-  width: 100%;
-}
+  .nav {
+    width: 100%;
+  }
 }

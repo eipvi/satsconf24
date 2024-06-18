@@ -11,11 +11,31 @@ import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index"
 const Navbar = () => {
   // Estado para controlar a exibição do menu hamburguer
   const [showMenu, setShowMenu] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [showDropdownT, setShowDropdownSC] = useState(false);
+
 
   // Função para alternar a visibilidade do menu hamburguer
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+
+const handleLinkClickHome = () => {
+  setShowMenu(false);
+  setShowDropdown(false);
+  setShowDropdownSC(false);
+};
+
+const toggleDropdown = () => {
+  setShowDropdown(!showDropdown);
+  setShowDropdownSC(false)
+};
+
+const toggleDropdownTwo = () => {
+  setShowDropdownSC(!showDropdownT);
+  setShowDropdown(false)
+};
 
   return (
     <nav className="nav" >
@@ -32,31 +52,54 @@ const Navbar = () => {
 
           <ul className={`navMenu ${showMenu ? "showMenu" : ""}`}>
             <li>
-              <Link href="/">HOME</Link>
+              <Link href="/" onClick={handleLinkClickHome}>HOME</Link>
             </li>
             <li>
-              <Link href="/palestrantes">PALESTRANTES</Link>
+              <Link href="/palestrantes" onClick={handleLinkClickHome}>PALESTRANTES</Link>
             </li>
+            <div className="dropdown">
             <li>
-              <Link href="/#programacao">PROGRAMAÇÃO</Link>
+              <button href="/" onClick={toggleDropdown} className="dropbtn">PROGRAMAÇÃO</button>
             </li>
+            <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
+            <Link href="/programacao">Agenda 2024</Link>
+            <Link href="/programacao">SatsWeek</Link>
+            <Link href="/programacao">SatsArte</Link>
+            <Link href="/programacao">SatsGaming</Link>
+            <Link href="/programacao">SatsKids</Link>
+            <Link href="/programacao">SatsParty</Link>
+            <Link href="/programacao">SatsMarket</Link>
+            </div>
+            </div>
+            <div className="dropdown">
             <li>
-              <Link href="/contato">CONTATO</Link>
+              <button href="/" onClick={toggleDropdownTwo} className="dropbtn">MAIS</button>
             </li>
+            <div className={`dropdown-content ${showDropdownT ? "show" : ""}`}>
+            <Link href="/programacao">Ingresso Estudante</Link>
+            <Link href="/programacao">Imprensa</Link>
+            <Link href="/programacao">Patrocínio</Link>
+            <Link href="/programacao">Hotéis</Link>
+            <Link href="/programacao">Local do Evento</Link>
+            <Link href="/faq" onClick={handleLinkClickHome}>Faq</Link>
+            </div>
+            </div>
             <li>
-              <Link href="/faq">FAQ</Link>
+              <Link href="/contato" onClick={handleLinkClickHome}>CONTATO</Link>
             </li>
           </ul>
           <div>
-            <BtnIngresso url="https://satsconf.vercel.app/ingressos">
+            <BtnIngresso url="https://www.satsconf.com.br/ingressos">
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>
+         
           <div>
             <button className="hamburgerBtn" onClick={toggleMenu}>
               {showMenu ? <FaTimes /> : <FaBars />}
             </button>
           </div>
+        
         </div>
       </div>
     </nav>
