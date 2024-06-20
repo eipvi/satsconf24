@@ -15,7 +15,7 @@ const pSatsParty = ({ children }) => {
               <span className="SatsConfParty-Span">Evento exclusivo para vips</span>
               <h1 className="margem-top-30">ENTRE NO NOVO MUNDO COM A GENTE!</h1>
               <div className="container-btn-satsparty margem-top-20">
-              <BtnIngresso url="/">COMPRAR INGRESSO</BtnIngresso>
+              <BtnIngresso url="https://satsconf24.vercel.app/ingressos">COMPRAR INGRESSO</BtnIngresso>
               </div>
         
               {/* gap de 16 com container de botão */}

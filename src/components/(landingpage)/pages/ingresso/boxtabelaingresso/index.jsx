@@ -82,7 +82,7 @@ const BoxTabelaIngresso = () => {
         </tbody>
       </table>
       <div className="sc-gap-8 containerBtnIngresso">
-        <BtnIngresso url="https://www.example.com">
+        <BtnIngresso url="https://satsconf24.vercel.app/ingressos">
           COMPRAR INGRESSO
         </BtnIngresso>
         {/* botão do container principal */}

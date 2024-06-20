@@ -96,7 +96,7 @@ const BoxGarante = () => {
               <p>*Números de assentos VIP limitados e sujeito a alteração.</p>
             </div>
             <div className="containerbtnHome marginBottonHomeCronogramaTwo">
-              <BtnCronogramaSecundary url="">
+              <BtnCronogramaSecundary url="https://satsconf24.vercel.app/ingressos">
                 {" "}
                 COMPRAR INGRESSO AGORA{" "}
               </BtnCronogramaSecundary>

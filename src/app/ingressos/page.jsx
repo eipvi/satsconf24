@@ -21,7 +21,7 @@ const Ingressos = ({ children }) => {
                 <h1>INGRESSOS SATSCONF</h1>
                 {/* gap de 8 com container de botão */}
                 <div className="sc-gap-8 container-btn">
-                  <BtnIngresso url="https://www.example.com">
+                  <BtnIngresso url="https://satsconf24.vercel.app/ingressos">
                     COMPRAR INGRESSO
                   </BtnIngresso>
                   {/* botão do container principal */}
