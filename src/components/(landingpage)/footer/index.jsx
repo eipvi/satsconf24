@@ -1,4 +1,5 @@
 import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo/index.jsx"; // Import the necessary component
+import Link from "next/link";
 import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -12,21 +13,26 @@ const Footer = () => {
 
           <div>
             <p>Satsconf. &copy; 2024 </p>
-            <a href="">Política de Privacidade</a>
+            <Link href="">Política de Privacidade</Link>
           </div>
           <div className="collumn">
             <h2>Nos acompanhe</h2>
             <ul>
               <li>
-                <FaTelegramPlane style={{ color: "white" }} />
-                Entre no grupo do Telegram
+              <Link href="https://t.me/satsconf">
+                  <FaTelegramPlane style={{ color: "white" }} />
+                  Entre no grupo do Telegram
+                </Link>
               </li>
               <li>
-                <FaTwitter style={{ color: "white" }} /> Acompanhe o Twitter
-              </li>
+              <Link href="https://x.com/satsconf">
+                  <FaTwitter style={{ color: "white" }} /> Acompanhe o Twitter
+                </Link>              </li>
               <li>
-                <FaInstagram style={{ color: "white" }} />
-                Acompanhe o Instagram
+              <Link href="https://www.instagram.com/satsconf.btc">
+                  <FaInstagram style={{ color: "white" }} />
+                  Acompanhe o Instagram
+                </Link>
               </li>
             </ul>
           </div>
