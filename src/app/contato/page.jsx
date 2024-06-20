@@ -1,4 +1,5 @@
 import FAQcontato from "@/components/(landingpage)/containers/faq/facontato";
+import TypeformEmbed from "@/components/(landingpage)/containers/typeform";
 import ImageContato from "@/components/(landingpage)/images/ImageContato";
 
 
@@ -25,6 +26,7 @@ const Contato = ({ children }) => {
           </div>
         </div>
         <div>
+          <TypeformEmbed />
         <FAQcontato />
         </div>
       </div>
