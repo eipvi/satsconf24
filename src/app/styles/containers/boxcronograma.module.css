@@ -3,6 +3,7 @@
   height: 62rem;
   padding-top: 0;
   color: var(--white);
+
 }
 
 .bgContainerCronograma h3 {
@@ -92,6 +93,7 @@
   height: 89.8px;
 }
 @media screen and (max-width: 600px) {
+  
   .boxItem,
   .boxItemTwo {
     width: 320px;
@@ -168,6 +170,7 @@
   .bgContainerCronograma {
     height: auto; /* Ajuste este valor conforme necessário */
     padding: 0 0 20px 0;
+    margin-bottom: 15rem;
   }
 
   .btnCronograma,
@@ -238,7 +241,7 @@
 
 @media screen and (min-width: 1225px) and (max-width: 2199px) {
   .bgContainerCronograma {
-    height: 52rem;
+    height: 68rem;
   }
   .bgContainerGarante {
     height: 108rem;
