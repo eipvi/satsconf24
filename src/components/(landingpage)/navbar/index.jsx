@@ -59,28 +59,29 @@ const toggleDropdownTwo = () => {
             </li>
             <div className="dropdown">
             <li>
-              <button href="/" onClick={toggleDropdown} className="dropbtn">PROGRAMAÇÃO</button>
+              <button href="/" onClick={toggleDropdown} className="dropbtn navItem">PROGRAMAÇÃO</button>
             </li>
             <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
-            <Link href="/programacao">Agenda 2024</Link>
-            <Link href="/programacao">SatsWeek</Link>
-            <Link href="/programacao">SatsArte</Link>
-            <Link href="/programacao">SatsGaming</Link>
-            <Link href="/programacao">SatsKids</Link>
-            <Link href="/programacao">SatsParty</Link>
-            <Link href="/programacao">SatsMarket</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Agenda 2024</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsWeek</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsArte</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsGaming</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsKids</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsParty</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsMarket</Link>
             </div>
             </div>
             <div className="dropdown">
             <li>
-              <button href="/" onClick={toggleDropdownTwo} className="dropbtn">MAIS</button>
+              <button href="/" onClick={toggleDropdownTwo} className="dropbtn navItem">MAIS</button>
             </li>
             <div className={`dropdown-content ${showDropdownT ? "show" : ""}`}>
-            <Link href="/programacao">Ingresso Estudante</Link>
-            <Link href="/programacao">Imprensa</Link>
-            <Link href="/programacao">Patrocínio</Link>
-            <Link href="/programacao">Hotéis</Link>
-            <Link href="/programacao">Local do Evento</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>SatsMarket</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Ingresso Estudante</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Imprensa</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Patrocínio</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Hotéis</Link>
+            <Link href="/programacao" onClick={handleLinkClickHome}>Local do Evento</Link>
             <Link href="/faq" onClick={handleLinkClickHome}>Faq</Link>
             </div>
             </div>
