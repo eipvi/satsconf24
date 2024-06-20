@@ -8,7 +8,7 @@ const ConvidadosSats = () => {
     {
       id: 1,
       name: "Alex Gladstein",
-      description: "Alex Gladstein é o chief strategy officer at the Human Rights Foundation. No seu trabalho, Gladstein conectou centenas de dissidentes e grupos da sociedade civil com líderes empresariais, tecnólogos, jornalistas, filantropos, decisores políticos e artistas para promover sociedades livres e abertas. Ele frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade, e foi coautor do “The Little Bitcoin Book” em 2019. Seu livro 'Check Your Financial Privilege' foi publicado em 2022, e seu último livro, 'Hidden Repression: How the FMI and World Bank sell Exploitation as Development' foi publicado em abril 2023.",
+      description: "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre porque o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
       image: "./alex-gladstein.jpeg",
       skills: "Human Rights Foundation",
       socialMedia: {
