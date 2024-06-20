@@ -68,7 +68,7 @@
 }
 
 .boxItemCronograma span {
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,6 +100,7 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 653px) {
+
   .bgContainerGarante {
     height: 158rem;
   }
@@ -132,6 +133,7 @@
   .boxItemCronograma span {
     width: 215px;
     font-size: 14px;
+    margin: 0;
   }
   .boxCronograma p {
     font-size: 12px;
@@ -143,7 +145,7 @@
   }
 
   .boxItemCronograma {
-    width: 256px;
+    width: 260px;
     height: 454px;
     padding: 22px;
   }
@@ -164,7 +166,8 @@
 
 @media screen and (max-width: 768px) {
   .bgContainerCronograma {
-    height: 108rem; /* Ajuste este valor conforme necessário */
+    height: auto; /* Ajuste este valor conforme necessário */
+    padding: 0 0 20px 0;
   }
 
   .btnCronograma,
@@ -183,7 +186,7 @@
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
 
   .bgContainerCronograma {
-    height: 128rem; /* Ajuste este valor conforme necessário */
+    height: 113rem; /* Ajuste este valor conforme necessário */
   }
 
   .bgContainerGarante {
@@ -192,8 +195,11 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
+  .bgContainerCronograma {
+    height: auto;
+  }
   .bgContainerGarante {
-    height: 150rem;
+    height: 136rem;
   }
 }
 @media screen and (min-width: 628px) and (max-width: 673px) {
@@ -204,7 +210,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bgContainerCronograma {
-    height: 98rem; /* Ajuste este valor conforme necessário */
+    height: 88rem; /* Ajuste este valor conforme necessário */
   }
   .bgContainerGarante {
     height: 150rem;
@@ -213,14 +219,14 @@
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
   .bgContainerCronograma {
-    height: 108rem; /* Ajuste este valor conforme necessário */
+    height: 100rem; /* Ajuste este valor conforme necessário */
     padding-top: 206px;
   }
 }
 
 @media screen and (min-width: 912px) and (max-width: 1368px) {
   .bgContainerCronograma {
-    height: 108rem; /* Ajuste este valor conforme necessário */
+    height: 98rem; /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -232,7 +238,7 @@
 
 @media screen and (min-width: 1225px) and (max-width: 2199px) {
   .bgContainerCronograma {
-    height: 68rem;
+    height: 52rem;
   }
   .bgContainerGarante {
     height: 108rem;

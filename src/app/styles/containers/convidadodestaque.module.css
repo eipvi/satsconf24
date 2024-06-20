@@ -202,7 +202,7 @@
 /* Para desktops */
 @media screen and (min-width: 1025px) {
   #PagPalestrantes {
-    height: 400vh; /* Mantém a altura original para telas maiores */
+    height: 440vh; /* Mantém a altura original para telas maiores */
   
   }
 }

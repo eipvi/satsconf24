@@ -24,17 +24,17 @@
   transform: translateY(-10%) rotate(-3deg); /* Rotaciona o elemento em -45 graus */
   width: 100%;
   height: 151px;
-  background: rgba(58, 28, 83, 1);/* Cor desejada para o fundo não girado */
+  background: rgb(55, 26, 79);/* Cor desejada para o fundo não girado */
   z-index: 2; /* Move o fundo para trás do conteúdo */
 }
 
 .bgTabelaIngresso {
   width: 100%;
-  height: 74rem;
+  height: 65rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(rgba(58, 28, 83, 1), rgb(99 42 145 / 57%));
+  background: linear-gradient(rgba(58, 28, 83, 1), #14081e);
 }
 
 .BoxTabelaIngresso {
@@ -89,6 +89,7 @@
 
 #listaIngressoBox .bgTabelaIngresso h2 {
   font-size: 24px;
+  z-index: 5;
 }
 
 

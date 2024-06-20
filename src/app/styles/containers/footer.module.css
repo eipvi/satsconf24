@@ -31,6 +31,7 @@
 .footer ul li {
   color: white;
   margin: 8px;
+  display: flex;
 }
 
 .footer svg {
@@ -63,7 +64,7 @@
 
   .bgContainerFooter {
     width: 100%;
-    height: 520px;
+    height: 560px;
 
   }
 
