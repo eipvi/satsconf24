@@ -34,7 +34,7 @@ const ModalPalestrantes = ({
           <h2>{name}</h2>
 
           <p>{description}</p>
-          <Link href="/">
+          <Link href="https://www.satsconf.com.br/ingressos">
             <button className="btnComprarModal">Comprar Ingresso</button>
           </Link>
 

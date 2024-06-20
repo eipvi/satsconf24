@@ -29,7 +29,7 @@
 }
 
 .container-btn-palestrantes {
-  padding: 79px 0;
+  padding: 30px 0 79px 0;
   margin: auto;
   position: relative;
   z-index: 2;
@@ -109,7 +109,7 @@
 
 @media screen and (min-width: 280px) and (max-width: 653px) {
   .bgContainerGarante {
-    padding-top: 88px;
+    padding-top: 10px;
   }
   .container-btn-palestrantes .btnNovidades {
     width: 260px;
