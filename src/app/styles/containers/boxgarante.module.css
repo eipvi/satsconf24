@@ -1,157 +1,150 @@
 /* container: informações sobre o evento, contendo dois box */
 .backgroundTop {
-    position: relative; /* Garante que o position absolute do pseudo-elemento seja relativo a este container */
-
+  position: relative; /* Garante que o position absolute do pseudo-elemento seja relativo a este container */
 }
 
 .backgroundTop::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -45px;
   left: 0;
   transform: translateY(6%) rotate(-2deg); /* Rotaciona o elemento em -45 graus */
   width: 100%;
   height: 151px;
-  background-color: #3F1A57; /* Cor desejada para o fundo não girado */
+  background-color: #3f1a57; /* Cor desejada para o fundo não girado */
   z-index: -1; /* Move o fundo para trás do conteúdo */
 }
 
 .bgContainerGarante {
-    width: 100%;
-    height:   50rem;
-    background: linear-gradient(180deg, #3F1A57 7.39%, rgba(107, 38, 151, 0) 90.74%);
-    background: (180deg, color(display-p3 0.227 0.110 0.325) 7.39%, color(display-p3 0.388 0.165 0.569 / 0) 90.74%);
-    padding-top: 110px;
-    text-align: center;
-  
-  
-  }
-
-  .boxGarante {
-    width: 100%;
-    margin: 0 auto;
-    
-  }
-.logoContainer image{
   width: 100%;
-
-}
-  .boxLogoGarante img {
-    width: 100%;
-
-  }
-
-  .logoContainer {
-    width: 100%;
-  }
-
-  .imagensLogoConatinerSite {
-    width: 300px;
-    height: 75px;
-    margin: 20px auto;
-  }
-
-  .boxGarante span {
-    display: flex;
-    justify-content: center;
-    margin:24px;
-  }
-
-
-  .boxGarante {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 16px 0;
-    gap: 42px;
-    padding: 0; /* Remove o padding padrão da lista */
-
-  }
-
-  .boxItem {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    width: 546px;
-    height: 687px;
-    border: 1px solid #FFFFFF;
-    border-image-slice: 1;
-    border-radius: 50px;
-    padding: 45px;
-  }
-
-  .boxItemTwo {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    width: 546px;
-    height: 1158px;
-    border: 1px solid;
-    border-image-slice: 1;
-    border-radius: 50px;
-    padding: 45px;
-
-
+  height: 50rem;
+  background: linear-gradient(
+    180deg,
+    #3f1a57 7.39%,
+    rgba(107, 38, 151, 0) 90.74%
+  );
+  background: (
+    180deg,
+    color(display-p3 0.227 0.11 0.325) 7.39%,
+    color(display-p3 0.388 0.165 0.569 / 0) 90.74%
+  );
+  padding-top: 5px;
+  text-align: center;
 }
 
-  .boxColorSecundary {
-    background: linear-gradient(174.89deg, #B32FE0 -4.27%, #FFB126 108.88%);
+.boxGarante {
+  width: 100%;
+  margin: 0 auto;
+}
+.logoContainer image {
+  width: 100%;
+}
+.boxLogoGarante img {
+  width: 100%;
+}
 
-  }
+.logoContainer {
+  width: 100%;
+}
 
-  .boxColorPrimary {
-    background-color:  rgba(255, 255, 255, 0.3);
-  }
+.imagensLogoConatinerSite {
+  width: 300px;
+  height: 67px;
+  margin: 20px auto;
+}
 
+.boxGarante span {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
 
-  .boxListGarante {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 430px;
-    margin: 0 auto;
-    
-  }
+.boxGarante {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 8px 0 64px 0;
+  gap: 42px;
+  padding: 0; /* Remove o padding padrão da lista */
+}
 
+.boxItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  width: 546px;
+  height: 848px;
+  border: 1px solid #ffffff;
+  border-image-slice: 1;
+  border-radius: 50px;
+  padding: 45px;
+}
 
-  .boxListGarante li{
-    display: flex;
-    align-items: center;
-    margin: 16px 0; /* Define um espaçamento interno de 5 pixels apenas no topo e na base dos itens da lista */
+.boxItemTwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  width: 546px;
+  height: 848px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-radius: 50px;
+  padding: 45px;
+}
+
+.boxColorSecundary {
+  background: linear-gradient(174.89deg, #b32fe0 -4.27%, #ffb126 108.88%);
+}
+
+.boxColorPrimary {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.boxListGarante {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 430px;
+  margin: 0 auto;
+}
+
+.boxListGarante li {
+  display: flex;
+  align-items: center;
+  margin: 32px 41px 0; /* Define um espaçamento interno de 5 pixels apenas no topo e na base dos itens da lista */
   line-height: 1.5; /* Ajusta o espaçamento entre as linhas */
   font-size: 18px;
-  
-  }
-
+}
 
 .boxListGarante li p {
   display: flex; /* Faz com que o texto fique ao lado do ícone */
   align-items: center; /* Alinha verticalmente o texto com o ícone */
   margin: 0; /* Remove margens do elemento <p> */
-
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-  .boxListGarante svg {
-    width: 38px;
-    height: 38px;
-    margin-right: 16px; 
-    
-  }
+.icon-garante {
+  width: 38px;
+  height: auto;
+}
 
-  .boxListGaranteInfo p {
-    padding: 38px 0 0 0;
-    font-size: 16px;
-   
-  }
+.boxListGarante svg {
+  width: 28px;
+  height: 24px;
+  margin-right: 16px;
+}
 
-  .btnGaranteColor {
-    background-color: #3F1A57;
-  }
+.btnGaranteColor {
+  background-color: #3f1a57;
+}
 
 .containerbtnHome {
   padding-top: 25px;
@@ -159,28 +152,24 @@
 }
 
 .marginBottonHomeCronograma {
-  margin-top: 130px;
-
+  margin-top: 109px;
 }
 
 .marginBottonHomeCronogramaTwo {
-  position: relative  ;
-  margin-top: 100px;
-
+  position: relative;
+  margin-top: 79px;
 }
 
-.btnCronograma, .btnCronogramaSecundary {
+.btnCronograma,
+.btnCronogramaSecundary {
   font-size: 18px;
-  color: #1D0D2B;
+  color: #1d0d2b;
 }
 
-  @media screen and (max-width: 768px) {
-   
-
-    .marginBottonHomeCronograma {
-      margin-top: 120px;
-    }
-
+@media screen and (max-width: 768px) {
+  .marginBottonHomeCronograma {
+    margin-top: 120px;
+  }
 
   .imagensLogoConatinerSite {
     width: 230px;
@@ -188,18 +177,13 @@
     margin: 0 auto;
   }
 
-
   .boxListGarante {
     width: 100%;
-    
   }
-   
-    .boxGarante {
-      gap: 56px;
 
-    
-    }
-
+  .boxGarante {
+    gap: 56px;
+  }
 
   .boxItem {
     width: 394px;
@@ -209,37 +193,25 @@
   .boxItemTwo {
     width: 394px;
     height: 100%;
-}
-
-.boxListGarante svg {
-  height: 28px;
-  margin-right: 16px; 
-  
-}
-
-.btnCronograma {
- width: 250px;
-}
   }
-  
 
-  @media screen and (min-width: 1200px) {
-
-
-
-   
-
-.bgContainerGarante {
-  height: 140rem;
-}
+  .btnCronograma {
+    width: 250px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .bgContainerGarante {
+    height: 140rem;
+  }
+}
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
+
   .marginBottonHomeCronograma {
     margin-top: 125px;
   }
-
 
   .bgContainerGarante {
     height: 140rem;
@@ -247,65 +219,48 @@
 }
 @media screen and (min-width: 360px) and (max-width: 880px) {
   .marginBottonHomeCronograma {
-    margin-top: 220px;
+    margin-top: auto;
   }
-
-
-
 }
-  
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
-  
   .marginBottonHomeCronograma {
-    margin-top: 210px;
+    margin-top: 86px;
   }
 
-.bgContainerGarante {
-  height: 170rem;
-}
-}
-
-@media screen and (min-width: 414px) and (max-width: 896px){
- 
-  .marginBottonHomeCronograma {
-    margin-top: 220px;
+  .bgContainerGarante {
+    height: 170rem;
   }
-
-
 }
 
-
-@media screen and (min-width: 390px) and (max-width: 844px){
- 
+@media screen and (min-width: 414px) and (max-width: 896px) {
   .marginBottonHomeCronograma {
     margin-top: 220px;
   }
 }
 
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  .marginBottonHomeCronograma {
+    margin-top: 144px;
+  }
+}
 
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+  .marginBottonHomeCronograma {
+    margin-top: 118px;
+  }
+}
 
-@media screen and (min-width: 800px) and (max-width: 1280px){
- 
+@media screen and (min-width: 820px) and (max-width: 1180px) {
   .marginBottonHomeCronograma {
     margin-top: 120px;
   }
 }
 
-@media screen and (min-width: 820px) and (max-width: 1180px){
- 
+@media screen and (min-width: 834px) and (max-width: 1194px) {
   .marginBottonHomeCronograma {
     margin-top: 120px;
   }
-}
-
-
-@media screen and (min-width: 834px) and (max-width: 1194px){
- 
-  .marginBottonHomeCronograma {
-    margin-top: 125px;
-  }
-
 }
 
 @media screen and (min-width: 777px) and (max-width: 672px) {
@@ -314,27 +269,23 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .marginBottonHomeCronograma {
+    margin-top: 168px;
+  }
 
-
-.bgContainerGarante {
-  height: 148rem;
-}
+  .bgContainerGarante {
+    height: 148rem;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1199px) {
-
-.bgContainerGarante {
-  height: 170rem;
+  .bgContainerGarante {
+    height: 170rem;
+  }
 }
-}
-
-
 
 @media screen and (min-width: 1280px) and (max-width: 800px) {
-
   .marginBottonHomeCronograma {
     margin-top: 120px;
   }
-
-
-  }
+}

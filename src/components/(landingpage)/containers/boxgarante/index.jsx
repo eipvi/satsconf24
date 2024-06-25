@@ -6,6 +6,7 @@ import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLo
 import MeuComponenteIgressoVip from "@/components/(landingpage)/images/ImageLogoVip";
 import BtnCronograma from "@/components/(landingpage)/ui/button/BtnCronograma";
 import BtnCronogramaSecundary from "../../ui/button/BtnCronogramaSecundary/inde";
+import BoxCronograma from "../boxcronograma";
 
 const BoxGarante = () => {
   return (
@@ -16,85 +17,105 @@ const BoxGarante = () => {
         </h2>
         <div className="boxGarante">
           <div className="boxItem boxColorPrimary">
-            <span className="krona-one-regular ">2 A 4 NOVEMBRO</span>
+            <span className="krona-one-regular ">8 e 9 de Novembro</span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteLogo />
             </div>
 
             <ul className="boxListGarante">
               <li>
-                <FiCheckCircle size={38} color="white" /> Acesso ao Palco
-                Nakamoto
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso aos 2 dias de evento principal</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" /> Acesso ao Palco Hal
-                Finney
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p> Acesso ao Palco Satoshi Nakamoto</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" /> Acesso às salas de
-                Workshop
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso ao Palco Hal Finney</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" /> Acesso à Área de
-                Exposição
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso às salas de Workshop</p>
+              </li>
+              <li>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso à Área de Exposição</p>
+              </li>
+              <li>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso à SatsKids, SatsGaming, SatsArte e SatsMarket</p>
               </li>
             </ul>
             <div className="containerbtnHome marginBottonHomeCronograma">
-              <BtnCronograma url=""> ESGOTADO</BtnCronograma>
+              <BtnCronograma url="https://www.satsconf.com.br/ingressos">
+                {" "}
+                COMPRAR INGRESSO AGORA
+              </BtnCronograma>
             </div>
           </div>
 
           <div className="boxItemTwo boxColorSecundary">
-            <span className="krona-one-regular ">2 A 6 NOVEMBRO</span>
+            <span className="krona-one-regular ">8 a 10 de Novembro </span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteIgressoVip />
             </div>
 
             <ul className="boxListGarante">
               <li>
-                <FiCheckCircle size={38} color="white" />
-                <p>Acesso ao Palco Nakamoto </p>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+
+                <p>Todos os acessos do Ingresso Normal</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" />
-                <p>Acesso ao Palco Hal Finney</p>
-              </li>
-              <li>
-                <FiCheckCircle size={38} color="white" />
-                <p>Acesso às salas de Workshop</p>
-              </li>
-              <li>
-                <FiCheckCircle size={38} color="white" />
-                <p> Acesso à Área de Exposição</p>
-              </li>
-              <li>
-                <FiCheckCircle size={38} color="white" />
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
                 <p>Entrada especial no evento</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" />
-                <p>Assentos VIP na plateia de todas as palestras*</p>
-              </li>{" "}
-              <li>
-                <FiCheckCircle size={38} color="white" />
-                <p>Bitcoffe Break com café e snacks**</p>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>
+                  Acesso aos assentos VIP no palco Satoshi Nakamoto e Hal Finney
+                </p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" />
-                <p> Espaço VIP com benefícios e surpresas</p>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso à Área VIP com comidas e bebidas</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" />
-                <p> Acesso privilegiado aos palestrantes</p>
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
+                <p>Acesso privilegiado aos palestrantes</p>
               </li>
               <li>
-                <FiCheckCircle size={38} color="white" />
+                <div className="icon-garante">
+                  <FiCheckCircle color="white" />
+                </div>
                 <p>Acesso a SATSPARTY open bar e open food</p>
-              </li>
+              </li>{" "}
             </ul>
-            <div className="boxListGaranteInfo">
-              <p>*Números de assentos VIP limitados e sujeito a alteração.</p>
-            </div>
+
             <div className="containerbtnHome marginBottonHomeCronogramaTwo">
               <BtnCronogramaSecundary url="https://satsconf24.vercel.app/ingressos">
                 {" "}
@@ -103,6 +124,7 @@ const BoxGarante = () => {
             </div>
           </div>
         </div>
+        <BoxCronograma />
       </div>
     </section>
   );
