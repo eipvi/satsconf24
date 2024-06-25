@@ -14,31 +14,51 @@ const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showDropdownT, setShowDropdownSC] = useState(false);
 
-
-  // Função para alternar a visibilidade do menu hamburguer
+  //toggleMenu: Alterna a visibilidade do menu hambúrguer, mudando o estado de showMenu entre true e false.
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
+  //handleLinkClickHome: Fecha todos os menus e dropdowns quando um link é clicado, mudando todos os estados (showMenu, showDropdown, showDropdownT) para false.
+  const handleLinkClickHome = () => {
+    // showMenu: Controla a visibilidade do menu hambúrguer (abrir/fechar).
+    setShowMenu(false);
+    //showDropdown: Controla a visibilidade do primeiro dropdown ("PROGRAMAÇÃO").
+    setShowDropdown(false);
+    //showDropdownT: Controla a visibilidade do segundo dropdown ("MAIS").
+    setShowDropdownSC(false);
+  };
 
-const handleLinkClickHome = () => {
-  setShowMenu(false);
-  setShowDropdown(false);
-  setShowDropdownSC(false);
-};
+  //toggleDropdown: Alterna a visibilidade do primeiro dropdown ("PROGRAMAÇÃO"), e fecha o segundo dropdown se estiver aberto.
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
+    setShowDropdownSC(false);
+  };
 
-const toggleDropdown = () => {
-  setShowDropdown(!showDropdown);
-  setShowDropdownSC(false)
-};
+  //toggleDropdownTwo: Alterna a visibilidade do segundo dropdown ("MAIS"), e fecha o primeiro dropdown se estiver aberto.
+  const toggleDropdownTwo = () => {
+    setShowDropdownSC(!showDropdownT);
+    setShowDropdown(false);
+  };
 
-const toggleDropdownTwo = () => {
-  setShowDropdownSC(!showDropdownT);
-  setShowDropdown(false)
-};
+  const handleMouseEnterDropdown = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeaveDropdown = () => {
+    setShowDropdown(false);
+  };
+
+  const handleMouseEnterDropdownT = () => {
+    setShowDropdownSC(true);
+  };
+
+  const handleMouseLeaveDropdownT = () => {
+    setShowDropdownSC(false);
+  };
 
   return (
-    <nav className="nav" >
+    <nav className="nav">
       <div className="navBorder">
         <div className="navContainer">
           {/* link para pagina inicial da landingpage*/}
@@ -52,41 +72,95 @@ const toggleDropdownTwo = () => {
 
           <ul className={`navMenu ${showMenu ? "showMenu" : ""}`}>
             <li>
-              <Link href="/" onClick={handleLinkClickHome}>HOME</Link>
+              <Link href="/" onClick={handleLinkClickHome}>
+                HOME
+              </Link>
             </li>
             <li>
-              <Link href="/palestrantes" onClick={handleLinkClickHome}>PALESTRANTES</Link>
+              <Link href="/palestrantes" onClick={handleLinkClickHome}>
+                PALESTRANTES
+              </Link>
             </li>
-            <div className="dropdown">
+
+            <div
+              className="dropdown"
+              onMouseEnter={handleMouseEnterDropdown}
+              onMouseLeave={handleMouseLeaveDropdown}
+            >
+              <li>
+                <Link
+                  href="/"
+                  onClick={toggleDropdown}
+                  className="dropbtn navItem"
+                >
+                  PROGRAMAÇÃO
+                </Link>
+              </li>
+              <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Agenda 2024
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsWeek
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsArte
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsGaming
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsKids
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsParty
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  SatsMarket
+                </Link>
+              </div>
+            </div>
+            <div
+              className="dropdown"
+              onMouseEnter={handleMouseEnterDropdownT}
+              onMouseLeave={handleMouseLeaveDropdownT}
+            >
+              <li>
+                <Link
+                  href="/"
+                  onClick={toggleDropdownTwo}
+                  className="dropbtn navItem"
+                >
+                  MAIS
+                </Link>
+              </li>
+              <div
+                className={`dropdown-content ${showDropdownT ? "show" : ""}`}
+              >
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Ingresso Estudante
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Imprensa
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Patrocínio
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Hotéis
+                </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                  Local do Evento
+                </Link>
+                <Link href="/faq" onClick={handleLinkClickHome}>
+                  Faq
+                </Link>
+              </div>
+            </div>
             <li>
-              <button href="/" onClick={toggleDropdown} className="dropbtn navItem">PROGRAMAÇÃO</button>
-            </li>
-            <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Agenda 2024</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsWeek</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsArte</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsGaming</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsKids</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsParty</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsMarket</Link>
-            </div>
-            </div>
-            <div className="dropdown">
-            <li>
-              <button href="/" onClick={toggleDropdownTwo} className="dropbtn navItem">MAIS</button>
-            </li>
-            <div className={`dropdown-content ${showDropdownT ? "show" : ""}`}>
-            <Link href="/programacao" onClick={handleLinkClickHome}>SatsMarket</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Ingresso Estudante</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Imprensa</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Patrocínio</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Hotéis</Link>
-            <Link href="/programacao" onClick={handleLinkClickHome}>Local do Evento</Link>
-            <Link href="/faq" onClick={handleLinkClickHome}>Faq</Link>
-            </div>
-            </div>
-            <li>
-              <Link href="/contato" onClick={handleLinkClickHome}>CONTATO</Link>
+              <Link href="/contato" onClick={handleLinkClickHome}>
+                CONTATO
+              </Link>
             </li>
           </ul>
           <div>
@@ -94,13 +168,12 @@ const toggleDropdownTwo = () => {
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>
-         
+
           <div>
             <button className="hamburgerBtn" onClick={toggleMenu}>
               {showMenu ? <FaTimes /> : <FaBars />}
             </button>
           </div>
-        
         </div>
       </div>
     </nav>
