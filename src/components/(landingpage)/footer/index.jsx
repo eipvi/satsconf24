@@ -37,7 +37,7 @@ const Footer = () => {
               <li>
               <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
                   <FaWhatsapp style={{ color: "white" }} />
-                  Acompanhe o Instagram
+                  Acompanhe no WhatsApp
                 </Link>
               </li>
             </ul>
