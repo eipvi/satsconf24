@@ -19,8 +19,6 @@ const Home = () => {
           <BoxSobre />
           <BoxConvidados />
           <BoxGarante />
-          <BoxPatrocinadores />
-          <BoxParceiros />
           <FAQComponent />
 
         </section>
