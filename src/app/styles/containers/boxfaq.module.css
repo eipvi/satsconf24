@@ -3,7 +3,7 @@
 .faqContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 20px 150px 20px;
+  padding: 0 20px 150px 20px;
 }
 
 .faqItem {
@@ -37,6 +37,19 @@
   font-size: 36px;
   margin-bottom: 79px;
 
+}
+
+.containerTitleForm {
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  margin-bottom: 79px;
+ 
 }
 
 .faqHeader {
