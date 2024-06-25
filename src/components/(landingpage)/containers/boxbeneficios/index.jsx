@@ -8,8 +8,17 @@ const BoxBeneficios = () => {
   const renderizarBotoes = (quantidade) => {
     const botoes = [];
     for (let i = 0; i < quantidade; i++) {
-      botoes.push(<BtnBeneficios key={i}>Networking</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i}>Lightning Network</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>E-cash</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>Cypherpunks</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>Mineração</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>Freedom Money</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>Nostr</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1}>Networking</BtnBeneficios>);
+
     }
     return botoes;
   };
