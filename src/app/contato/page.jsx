@@ -2,7 +2,6 @@ import FAQcontato from "@/components/(landingpage)/containers/faq/facontato";
 import TypeformEmbed from "@/components/(landingpage)/containers/typeform";
 import ImageContato from "@/components/(landingpage)/images/ImageContato";
 
-
 const Contato = ({ children }) => {
   return (
     <section id="Contato">
@@ -26,8 +25,16 @@ const Contato = ({ children }) => {
           </div>
         </div>
         <div>
+          <div className="boxTitle">
+            {" "}
+            <h2 className=" containerTitleForm">
+              Preencha o formulário abaixo para entrar em contato com um
+              representante: 
+            </h2>
+
+          </div>
           <TypeformEmbed />
-        <FAQcontato />
+          <FAQcontato />
         </div>
       </div>
     </section>
