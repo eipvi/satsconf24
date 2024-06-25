@@ -12,12 +12,18 @@
 }
 
 .btnBeneficios {
+  width: 198px;
   height: 63px;
-  padding: 20px 85px 20px 85px;
+  padding: 20px 6px 20px 6px;
   border-radius: 80px;
   margin: 33px 0 0 0;
   background-color: var(--color-primary);
   display: flex;
+  text-align: center;
+}
+
+.bgContainerBeneficios .btnBeneficios button {
+padding: 45px;
 }
 
 .containerBotoes {

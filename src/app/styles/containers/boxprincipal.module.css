@@ -51,8 +51,8 @@
 
 .bgContainerPrincipal {
   width: 110rem 0;
-  height: 40rem;
-  padding: 15rem 0 15rem 0;
+  height: 38rem;
+  padding: 15rem 0 6rem 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -100,7 +100,7 @@
   .boxprincipal {
     width: 980px;
     justify-content: space-between;
-    margin-top: -80px;
+    margin-top: -112px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 653px) {
@@ -208,6 +208,7 @@
     margin-right: 180px;
     padding: 20px; /* Reduzindo o padding da imagem para tablets */
   }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
