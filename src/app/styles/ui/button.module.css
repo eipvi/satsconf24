@@ -92,7 +92,7 @@
   height: 70px;
   border-radius: 34px;
   position: absolute;
-  top: 29px;
+  top: 0;
   right: -176px;
   background: var(--white);
   box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
@@ -117,28 +117,28 @@
 
   .btnCronograma {
     margin: -33px 0;
-    width: 222px;
+    width: 230px;
     font-size: 12px;
   }
 
   .btnCronogramaSecundary {
-    margin: -33px 0;
-    width: 199px;
-    right: -102px;
+    margin: 0 auto;
+    width: 230px;
+    right: -114px;
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .btnCronograma {
-    width: 282px;
+    width: 326px;
     margin: 32px;
     }
 
     .btnCronogramaSecundary {
-      width: 282px;
+      width: 326px;
       right: -141px;
-      margin: -22px 0;
+      margin: 10px 0;
     }
 }
 

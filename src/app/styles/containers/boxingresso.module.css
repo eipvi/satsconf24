@@ -13,7 +13,7 @@ z-index: 2;
 #btnReal {
   background: rgba(245, 233, 255, 0.871);
   color: rgba(20, 8, 30, 1);
-  margin-left: -83px;
+  margin-left: -31px;
   z-index: 1; 
 
 }
@@ -87,6 +87,13 @@ margin: 0 0 56px 0;
     margin: 0 48px;
   
   }
+
+  .boxIngressoComprar span {
+    margin: 8px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 0.8rem;
+  }
   @media screen and (min-width: 280px) and (max-width: 320px) {
 
  .botaoContainerBtcRl button  {
@@ -117,7 +124,7 @@ margin: 0 0 56px 0;
     }
     .botaoContainerBtcRl {
         display: flex;
-        margin-bottom: 43px;
+        margin-bottom: 16px;
     }
       
   }
@@ -126,17 +133,17 @@ margin: 0 0 56px 0;
 @media screen and (max-width: 767px){
     
     .botaoContainerBtcRl button {
-        padding: 16px 20px;
+        padding: 16px 32px;
         font-size: 16px;
         text-align: center;
 
     }
     .bgContainerComprarIngresso {
-        height: 62rem;
+        height: 68rem;
     }
     .boxIngressoComprar {
         width: 100%;
-        height: 640px;
+        height: 736px;
         border-radius: 0;
      
     }
