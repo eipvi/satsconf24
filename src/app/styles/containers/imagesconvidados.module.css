@@ -101,9 +101,7 @@
 }
 
 @media screen and (min-width: 912px) and (max-width: 1368px) {
-  #PagPalestrantes {
-    height: 500rem;
-  }
+ 
   #PagPalestrantes .profile-card {
     width: 1206px;
     max-width: 100%;

@@ -13,13 +13,15 @@
 .bgContainerImageConvidadosPage {
   position: relative;
   width: 100%;
-  height: 750px;
+  height: auto;
   background-image: url("/sats-conf-bg.png"); /* Caminho para a sua imagem PNG */
   background-size: cover; /* Cobertura total da área do elemento */
   background-position: center; /* Posicionamento central da imagem */
 }
 
+
 .bgContainerConvidadosDestaque {
+  height: auto;
   margin: 0 auto;
 }
 
@@ -33,9 +35,9 @@
 
 .boxprincipalConvidadoDestaque {
   width: 974px;
-  height: 48rem;
+  height: 39rem;
   margin: 0 auto;
-  padding: 248px 0 248px 0;
+  padding: 178px 0 248px 0;
 }
 
 .sc-mgem-16 {
@@ -47,14 +49,12 @@
   margin: 0 auto;
 }
 
-
-
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
-  #PagPalestrantes {
-    height: 1600vh;
-  }
-
+  /* #PagPalestrantes {
+    height: 1100vh;
+    min-height: 100%;
+  } */
 
   .boxBlocoConvidados {
     margin-top: 0;
@@ -92,15 +92,40 @@
 }
 
 /* Para tablets */
-
-
-
+/* Para iphone 5 */
 @media screen and (min-width: 280px) and (max-width: 653px) {
  
   .containerConvidadosDestaque img {
     width: 268px;
     height: 320px;
   }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+/* #PagPalestrantes {
+ height: 1300vh;
+} */
+}
+/* iphone 13pro */
+@media screen and (min-width: 390px) and (max-width: 844px) {
+ /* #PagPalestrantes {
+  height: 1050vh;
+ } */
+}
+/* iphone oneplus*/
+
+@media screen and (min-width: 412px) and (max-width: 915px){
+  /* #PagPalestrantes {
+    height: 960vh;
+  } */
+}
+
+/* iphone 12max */
+@media screen and (min-width: 428px) and (max-width: 926px){
+  /* #PagPalestrantes {
+    height: 974vh;
+  } */
 }
 
 @media screen and (min-width: 518px) and (max-width: 658px) {
@@ -117,11 +142,13 @@
     height: 220rem;
   }
 }
-@media screen and (min-width: 596px) and (max-width: 1024px) {
 
+@media screen and (min-width: 596px) and (max-width: 1024px) {
+/* 
   #PagPalestrantes {
-    height: 650vh;
-  }
+    height: 654vh;
+    min-height: 1025vh;
+  } */
 
   
 }
@@ -137,18 +164,19 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {  
-  #PagPalestrantes {
-    height: 1300vh;
-  }
+  /* #PagPalestrantes {
+    height: auto;
+  } */
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1280px) {
-  #PagPalestrantes {
-    height: 680vh;
-  }
+  /* #PagPalestrantes {
+    min-height: 600vh;
+    
+  } */
 
   .bgContainerConvidadosPaginaPrincipal {
     height: 168rem;
@@ -158,13 +186,19 @@
 
 @media screen and (min-width: 884px) and (max-width: 1104px) {
 
+  .boxprincipalConvidadoDestaque{
+    width: 100%;
+  }
+
   .bgContainerConvidadosPaginaPrincipal {
-    height: 168rem;
+    height: auto;
   }
 }
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
-  
+  /* #PagPalestrantes {
+    min-height: 446vh;
+  } */
   #PagPalestrantes .profile-card {
     width: 100%;
   }
@@ -185,24 +219,26 @@
 }
 
 @media screen and (min-width: 1268px) and (max-width: 2850px) {
-
+  /* #PagPalestrantes {
+    min-height: 380vh;
+  } */
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
 }
 
-
-@media screen and (min-width: 2858px) {
-  .bgContainerConvidadosPaginaPrincipal {
-    height: 100%;
-  }
+  
+@media screen and (min-width: 1024px) {
+/* #PagPalestrantes {
+  min-height: 288vh;
+} */
 }
 
 
 /* Para desktops */
-@media screen and (min-width: 1025px) {
-  #PagPalestrantes {
-    height: 440vh; /* Mantém a altura original para telas maiores */
-  
+@media screen and (min-width: 2858px) {
+
+  .bgContainerConvidadosPaginaPrincipal {
+    height: 100%;
   }
 }
