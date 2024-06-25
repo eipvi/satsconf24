@@ -20,7 +20,7 @@ const BoxSobre = () => {
     <section className="bgContainerSobre">
       <div className="font-white boxprincipalSobre">
         <div className="block animate__animated animate__fadeInLeftBig">
-          <h2 className="sc-fz-18">SOBRE A SATS CONF</h2>
+          <h2 className="sc-fz-18">SOBRE A SATSCONF</h2>
 
           {data.map((item, i) => {
             return (

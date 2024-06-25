@@ -3,7 +3,7 @@
 import { IoMdAdd, IoMdClose } from "react-icons/io";
 import { useState } from "react";
 
-const FAQ = () => {
+const FAQComponent = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const toggleItem = (index) => {
@@ -84,4 +84,4 @@ const data = [
   },
 ];
 
-export default FAQ;
+export default FAQComponent;

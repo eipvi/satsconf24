@@ -3,6 +3,8 @@
 import Card from "../../ui/modal/modalDestaque/Card";
 
 const ListaConvidadosPaginaInicial = ({ profiles }) => {
+  
+
   return (
     <div id="listaPalestrantes" className="profile-card">
       {profiles.map((profile, index) => (

@@ -16,15 +16,15 @@ const Palestrantes = ({ children }) => {
   };
 
   return (
-    <section>
+    <div>
       {" "}
       {children}
       <div id="PagPalestrantes">
         <div className="bgContainerImageConvidadosPage">
           <div className="bgContainerConvidadosDestaque ">
-            <div className="boxprincipalConvidadoDestaque font-white krona-one-regular ">
+            <div className="boxprincipalConvidadoDestaque font-white krona-one-regular bgImagemPgPalestrantes">
               <div className="sc-mgem-16 ">
-                <span className="sc-fz-24 ">8 e 9 de Novembro | são Paulo</span>
+                <span className="sc-fz-24 ">8 e 9 de Novembro | São Paulo</span>
                 <h2 className="sc-fz-48 ">
                   CONHEÇA OS PALESTRANTES DA EDIÇÃO 2024
                 </h2>
@@ -41,11 +41,17 @@ const Palestrantes = ({ children }) => {
             </div>
             <div>
               <Card />
+              
             </div>
+            <div className="container-btn-palestrantes padding-bottom-30">
+            <BtnNovidades >Mais palestrantes em breve!</BtnNovidades>
+            </div>
+         
           </div>
+          
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

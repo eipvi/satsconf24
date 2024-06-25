@@ -3,7 +3,7 @@ const BoxPatrocinadores = () => {
     <section className="backgroundBottom">
       <div className="bgContainerPatrocinadores ">
         <div className="krona-one-regular  font-white ">
-          <div className="">
+          <div className="ContainerBoxPatrocinadores">
             <h2 className="sc-fz-36 boxTitle">Patrocinadores </h2>
 
             <div className="boxPatrocinadores">

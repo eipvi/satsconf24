@@ -8,11 +8,11 @@ const BoxCronograma = () => {
     <section className="bgContainerCronograma">
       {/* componente cronograma */}
       <h3 className="krona-one-regular sc-fz-36 boxTitle">
-        Cronograma SATS CONF 2024
+        Cronograma SATSCONF 2024
       </h3>
       <div className="boxCronograma">
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>8 e 9 de Novembro</h4>
+          <h4>Durante a Semana</h4>
           <div className="imageCronograma ">
             <SatsConf />
           </div>
@@ -23,7 +23,7 @@ const BoxCronograma = () => {
           <span className="krona-one-regular ">Audio | São Paulo</span>
         </div>
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>10 de Novembro</h4>
+          <h4>Durante a Semana</h4>
           <div className="imageCronograma">
             <SatsParty />
           </div>
@@ -35,7 +35,7 @@ const BoxCronograma = () => {
           <span className="krona-one-regular ">Local Secreto </span>
         </div>
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>4 a 10 de Novembro</h4>
+          <h4>Durante a Semana</h4>
           <div className="imageCronograma">
             <SatsWeek />
           </div>

@@ -40,6 +40,7 @@ const BoxPrincipal = () => {
                 <MeuComponenteEvento />
               </div>
             </div>
+
           </div>
         </div>
       </div>
