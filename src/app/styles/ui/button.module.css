@@ -116,7 +116,7 @@
   }
 
   .btnCronograma {
-    margin: -33px 0;
+    margin: 35px 0 -31px;
     width: 230px;
     font-size: 12px;
   }
@@ -132,12 +132,12 @@
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .btnCronograma {
     width: 326px;
-    margin: 32px;
+    margin: 52px 0 -45px;
     }
 
     .btnCronogramaSecundary {
       width: 326px;
-      right: -141px;
+      right: -166px;
       margin: 10px 0;
     }
 }

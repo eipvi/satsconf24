@@ -187,6 +187,7 @@
 
   .boxItem {
     width: 394px;
+    height: 100%;
     margin: 0 auto;
   }
 
@@ -199,6 +200,7 @@
     width: 250px;
   }
 }
+
 
 @media screen and (min-width: 1200px) {
   .bgContainerGarante {
@@ -225,14 +227,13 @@
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .marginBottonHomeCronograma {
-    margin-top: 86px;
+    margin-top: 104px;
   }
 
   .bgContainerGarante {
     height: 170rem;
   }
 }
-
 @media screen and (min-width: 414px) and (max-width: 896px) {
   .marginBottonHomeCronograma {
     margin-top: 220px;
@@ -241,7 +242,7 @@
 
 @media screen and (min-width: 390px) and (max-width: 844px) {
   .marginBottonHomeCronograma {
-    margin-top: 144px;
+    margin-top: auto;
   }
 }
 
@@ -270,7 +271,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .marginBottonHomeCronograma {
-    margin-top: 168px;
+    margin-top: 115px;
   }
 
   .bgContainerGarante {
