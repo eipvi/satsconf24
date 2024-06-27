@@ -41,7 +41,8 @@ export default function RootLayout({ children }) {
           <DadosProvider>
             <ModalProvider>
               <Header />
-              {children}
+            
+              {children}             
               <Footer />
             </ModalProvider>
             </DadosProvider>
