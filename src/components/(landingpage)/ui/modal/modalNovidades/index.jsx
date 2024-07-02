@@ -80,7 +80,7 @@ const ModalNovidades = ({ user }) => {
           <div className="containerFormulario ">
             <h3>
               Fique por dentro de todas as novidades da{" "}
-              <strong>SatsConf 2024</strong>{" "}
+              <strong>Satsconf 2024</strong>{" "}
             </h3>
             <form className="formBox">
               <div className="">
@@ -112,7 +112,7 @@ const ModalNovidades = ({ user }) => {
                   value={number}
                 />
               </div>
-              <button type="submit">RECEBER NOVIDADES</button>
+              <button type="submit">SE INSCREVER PARA RECEBER NOVIDADES</button>
             </form>
           </div>
         </div>
