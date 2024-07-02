@@ -104,7 +104,7 @@ const Navbar = () => {
                   SatsWeek
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
-                  SatsArte
+                SatsGallery
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsGaming
@@ -120,6 +120,11 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            <li>
+              <Link href="/contato" onClick={handleLinkClickHome}>
+                CONTATO
+              </Link>
+            </li>
             <div
               className="dropdown"
               onMouseEnter={handleMouseEnterDropdownT}
@@ -153,15 +158,11 @@ const Navbar = () => {
                   Local do Evento
                 </Link>
                 <Link href="/faq" onClick={handleLinkClickHome}>
-                  Faq
+                  FAQ
                 </Link>
               </div>
             </div>
-            <li>
-              <Link href="/contato" onClick={handleLinkClickHome}>
-                CONTATO
-              </Link>
-            </li>
+            
           </ul>
           <div>
             <BtnIngresso url="https://www.satsconf.com.br/ingressos">

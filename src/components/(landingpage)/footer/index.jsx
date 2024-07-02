@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className="footer bgContainerFooter">
       <div className="footerContainer">
         <div className="logo">
+          <div className="boxFooter">
           <div className="containerLogoFooter">
           <MeuComponenteLogo /> {/* Use the imported component */}
           </div>
@@ -18,6 +19,12 @@ const Footer = () => {
           <div className="collumn">
             <h2>Quer se envolver?</h2>
             <ul>
+            <li>
+              <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
+                  <FaWhatsapp style={{ color: "white" }} />
+                  Entre no grupo do Whatsapp
+                </Link>
+              </li>
               <li>
               <Link href="https://t.me/satsconf">
                   <FaTelegramPlane style={{ color: "white" }} />
@@ -34,15 +41,14 @@ const Footer = () => {
                   Acompanhe o Instagram
                 </Link>
               </li>
-              <li>
-              <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
-                  <FaWhatsapp style={{ color: "white" }} />
-                  Acompanhe no WhatsApp
-                </Link>
-              </li>
+             
             </ul>
           </div>
+          </div>    
+           
         </div>
+        <div className="lineFooter"></div>
+
       </div>
     </footer>
   );

@@ -97,7 +97,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso aos assentos VIP no palco Satoshi Nakamoto e Hal Finney
+              Acesso aos assentos VIP dos palcos
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
