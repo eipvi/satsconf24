@@ -1,7 +1,7 @@
 .bgContainerCronograma {
   width: 100%;
   height: 62rem;
-  padding-top: 0;
+  padding-top: 86px;
   color: var(--white);
  
 }
@@ -30,7 +30,7 @@
 
 .boxItemCronograma {
   width: 324px;
-  height: 506px;
+  height: auto;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */
   padding: 16px;
@@ -60,13 +60,13 @@
 }
 
 .boxCronograma .boxItemCronograma h4 {
-  margin: -2px auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 236px;
+  width: 278px;
   height: 46px;
   text-transform: unset;
   background: rgba(255, 255, 255, 0.2);
@@ -82,13 +82,13 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  width: auto;
+  width: 278px;
   height: 46px;
   font-size: 16px;
   text-transform: unset;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
-  margin: 38px 0;
+  margin: 38px 0 0;
   padding: 20px;
 }
 
@@ -164,7 +164,8 @@
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .boxItemCronograma {
-    width: 280px;
+    width: 306px;
+    height: auto;
     padding: 28px;
   }
 
@@ -178,7 +179,7 @@
 @media screen and (max-width: 768px) {
   .bgContainerCronograma {
     height: auto; /* Ajuste este valor conforme necessário */
-    padding: 0 0 20px 0;
+    padding: 96px 0 20px 0;
     margin-bottom: 15rem;
   }
 
@@ -187,7 +188,6 @@
     font-size: 18px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .bgContainerGarante {
     height: 100rem;
@@ -215,6 +215,7 @@
   }
 }
 @media screen and (min-width: 628px) and (max-width: 673px) {
+ 
   .bgContainerGarante {
     height: auto;
   }
@@ -234,13 +235,13 @@
 @media screen and (min-width: 820px) and (max-width: 1180px) {
   .bgContainerCronograma {
     height: 100rem; /* Ajuste este valor conforme necessário */
-    padding-top: 88px;
+    padding-top: 153px;
   }
 }
 
 @media screen and (min-width: 912px) and (max-width: 1368px) {
   .bgContainerCronograma {
-    height: 94rem; /* Ajuste este valor conforme necessário */
+    height: 100rem; /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -262,7 +263,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1336px) {
   .bgContainerCronograma {
     height: 65rem;
-    padding-top: 96px;
+    padding-top: 100px;
   }
 
   .bgContainerGarante {

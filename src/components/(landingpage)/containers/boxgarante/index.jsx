@@ -5,7 +5,7 @@ import { FiCheckCircle } from "react-icons/fi";
 import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo";
 import MeuComponenteIgressoVip from "@/components/(landingpage)/images/ImageLogoVip";
 import BtnCronograma from "@/components/(landingpage)/ui/button/BtnCronograma";
-import BtnCronogramaSecundary from "../../ui/button/BtnCronogramaSecundary/inde";
+// import BtnCronogramaSecundary from "../../ui/button/BtnCronogramaSecundary/inde";
 import BoxCronograma from "../boxcronograma";
 
 const BoxGarante = () => {
@@ -13,11 +13,11 @@ const BoxGarante = () => {
     <section className="backgroundTop" id="programacao">
       <div className="bgContainerGarante font-white">
         <h2 className="krona-one-regular sc-fz-36 boxTitle">
-          Garante seu ingresso agora mesmo!
+          Garanta seu ingresso agora mesmo!
         </h2>
         <div className="boxGarante">
           <div className="boxItem boxColorPrimary">
-            <span className="krona-one-regular ">8 e 9 de Novembro</span>
+            <span className="krona-one-regular ">8 e 9 de NOVEMBRO</span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteLogo />
             </div>
@@ -39,13 +39,13 @@ const BoxGarante = () => {
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso ao Palco Hal Finney</p>
+                <p>Acesso ao Palco Especial do Hal Finney</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso às salas de Workshop</p>
+                <p>Acesso às Salas Exclusivas de Workshop</p>
               </li>
               <li>
                 <div className="icon-garante">
@@ -68,8 +68,8 @@ const BoxGarante = () => {
             </div>
           </div>
 
-          <div className="boxItemTwo boxColorSecundary">
-            <span className="krona-one-regular ">8 a 10 de Novembro </span>
+          <div className="boxItem boxColorSecundary">
+            <span className="krona-one-regular ">8 a 10 de NOVEMBRO </span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteIgressoVip />
             </div>
@@ -93,7 +93,7 @@ const BoxGarante = () => {
                   <FiCheckCircle color="white" />
                 </div>
                 <p>
-                  Acesso aos assentos VIP no palco Satoshi Nakamoto e Hal Finney
+                Acesso aos assentos VIP dos palcos
                 </p>
               </li>
               <li>
@@ -112,15 +112,15 @@ const BoxGarante = () => {
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso a SATSPARTY open bar e open food</p>
+                <p>Acesso à SatsParty (open bar e open food)</p>
               </li>{" "}
             </ul>
 
-            <div className="containerbtnHome marginBottonHomeCronogramaTwo">
-              <BtnCronogramaSecundary url="https://satsconf24.vercel.app/ingressos">
+            <div className="containerbtnHome marginBottonHomeCronograma">
+              <BtnCronograma url="https://satsconf24.vercel.app/ingressos">
                 {" "}
                 COMPRAR INGRESSO AGORA{" "}
-              </BtnCronogramaSecundary>
+              </BtnCronograma>
             </div>
           </div>
         </div>

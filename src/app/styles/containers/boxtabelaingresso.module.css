@@ -51,7 +51,7 @@
 }
 
 .bgTabelaIngresso th {
-  padding: 24px 0;
+  padding: 24px 8px;
 }
 
 .BoxTabelaIngresso img {
@@ -80,7 +80,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 100px 0 100px 0;
+  padding: 42px 0 100px 0;
   text-align: center;
 }
 

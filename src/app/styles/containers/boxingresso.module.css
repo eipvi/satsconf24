@@ -94,6 +94,8 @@ margin: 0 0 56px 0;
     text-align: center;
     font-size: 0.8rem;
   }
+
+
   @media screen and (min-width: 280px) and (max-width: 320px) {
 
  .botaoContainerBtcRl button  {
