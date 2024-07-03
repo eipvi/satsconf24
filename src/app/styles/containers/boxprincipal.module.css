@@ -14,7 +14,7 @@
 }
 
 .bgContainerMargin {
-  margin: 0 16px 0 16px;
+  margin: 16px;
 }
 
 .boxprincipal {
@@ -46,7 +46,7 @@
 }
 
 .btningresso-img {
-  padding: 36px 0;
+  padding: 36px 0 36px;
 }
 
 .bgContainerPrincipal {
@@ -65,11 +65,15 @@
 
   .boxprincipal h1 {
     font-size: 1.8rem;
+    width: 83%;
   }
 
   .bgContainerPrincipal {
     width: 380px;
     height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .bgContainer {
     width: 442px;

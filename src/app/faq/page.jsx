@@ -32,7 +32,7 @@ const Faq = ({ children }) => {
         <FAQComponent />
       </div>
       <FAQpreparese />
-      <div className="boxTitle padding-bottom-30">
+      <div className="boxTitle containerEntrarContato">
         <h2 className="krona-one-regular ">Não encontrou a resposta para sua pergunta?</h2>
         <p className="">
           Entre em contato por e-mail (info@satsconf.com.br), pelo formulário do

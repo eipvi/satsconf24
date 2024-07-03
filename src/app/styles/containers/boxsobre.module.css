@@ -2,7 +2,7 @@
 
 .bgContainerSobre {
   width: 100%;
-  height: 38rem;
+  height: 42rem;
   background-color: var(--background);
   padding: 5rem 0 5rem 0;
 }
@@ -17,9 +17,6 @@
   gap: 25px;
   /* Espaçamento entre os blocos */
   margin: 0 auto;
-
-
-
 }
 .block {
   padding: 0 8rem 0 8rem;
@@ -29,7 +26,6 @@
 .block h3 {
   font-family: var(--font-krona-one-regular);
   font-weight: 400;
-  margin-bottom: 16px;
 }
 
 .block .content {
@@ -49,15 +45,19 @@
 .item {
   width: 466px;
   height: auto;
-  margin: 48px 0px;
+  margin: 64px 0px 32px 0;
   border-bottom: 1px solid #ffffffc2;
   padding-bottom: 32px;
+}
+.item:last-child {
+  border-bottom: none;
 }
 
 .content {
   max-height: 0;
   overflow: hidden; /* Oculta o conteúdo que excede o max-height */
   transition: max-height 0.6s ease; /* Adiciona uma transição suave */
+  margin: 16px 0;
 }
 
 /* Define o max-height para um valor maior quando o conteúdo é exibido */
@@ -80,45 +80,36 @@
   width: 300px;
   margin: 0 auto;
   display: block;
-
 }
-@media screen and (max-width: 380px){
-.boxprincipalSobre {
-  width: 200px;
-}
-
-}
-
-@media screen and (max-width: 600px){
-
-.bgContainerSobre  {
-height: auto;
-}
-
-.item {
-  width: 100%;
-
-}
-}
-
-
-
-@media screen and (max-width: 900px){
-
-  .bgContainerSobre  {
-  height: auto;
+@media screen and (max-width: 380px) {
+  .boxprincipalSobre {
+    width: 200px;
   }
-  
+}
+
+@media screen and (max-width: 600px) {
+  .bgContainerSobre {
+    height: auto;
+  }
+
   .item {
     width: 100%;
- 
   }
+}
+
+@media screen and (max-width: 900px) {
+  .bgContainerSobre {
+    height: auto;
   }
 
-@media screen and (min-width: 280px) and (max-width: 653px){
-  .bgContainerSobre{
+  .item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 653px) {
+  .bgContainerSobre {
     height: 88rem;
-
   }
 
   .item {
@@ -136,7 +127,6 @@ height: auto;
   .containerVideo {
     width: 300px;
   }
-
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
@@ -148,20 +138,19 @@ height: auto;
   }
 }
 
-@media screen and (min-width: 628px) and (max-width:  673px){
- .item {
-  width: 348px;
- }
-    }
+@media screen and (min-width: 628px) and (max-width: 673px) {
+  .item {
+    width: 348px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bgContainerSobre {
     height: 88rem;
   }
 
-.boxprincipalSobre {
-  display: flex;
-  flex-direction: column;
-
-}
+  .boxprincipalSobre {
+    display: flex;
+    flex-direction: column;
+  }
 }

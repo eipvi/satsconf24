@@ -12,18 +12,17 @@
 }
 
 .faqItem h3 {
-
   font-family: "Krona One", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 32px;
   margin-bottom: 79px;
-  color: var(--white  );
+  color: var(--white);
 }
 
 .faqItem span {
-  color: #9D96A8;
+  color: #9d96a8;
 }
 
 .containerTitleFaq {
@@ -35,8 +34,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 36px;
-  margin-bottom: 79px;
-
+  margin-bottom: 48px;
 }
 
 .containerTitleForm {
@@ -48,17 +46,15 @@
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
-  margin-bottom: 79px;
- 
+  margin: 0 auto;
 }
 
 .faqHeader {
   display: flex;
   flex-direction: column;
-  align-items: stretch; 
+  align-items: stretch;
   padding: 55px 16px;
   cursor: pointer;
-
 }
 
 .faqNumber {
@@ -71,7 +67,6 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .faqQuestion {
@@ -81,11 +76,11 @@
 .faqAnswer {
   display: none;
   padding: 0 88px;
-  color: #5A5365;
+  color: #5a5365;
 }
 
 .faqAnswer p {
-  color: #5A5365;
+  color: #5a5365;
 }
 
 .faqItem.open {
@@ -93,49 +88,58 @@
 }
 
 .faqItem.open h3 {
-  color: #2F1F3D;
+  color: #2f1f3d;
 }
 
 .faqItem.open span {
-  color: #2F1F3D;
+  color: #2f1f3d;
 }
 
 .faqItem .icon {
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   background-color: #615868;
   color: #fff;
   border-radius: 50%;
   padding: 8px;
-  
 }
 
-.faqToggle.open-icon .icon{
-  background-color: #2F1F3D;
+.faqToggle.open-icon .icon {
+  background-color: #2f1f3d;
 }
 
 .faqItem .faqQuestion {
   margin: 0 auto 0 0;
 }
 
-.faqItem .title h3{
+.faqItem .title h3 {
   text-align: left;
 }
 
-@media (max-width: 768px) {
-
-
-.faqAnswer {
-  padding: 0 38px;
-  font-size: 14px;
+.faqItem:last-child {
+  border-bottom: none;
 }
+
+.containerEntrarContato {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 130px;
+}
+@media (max-width: 768px) {
+  .containerTitleForm {
+    width: 100%;
+  }
+  .faqAnswer {
+    padding: 0 38px;
+    font-size: 14px;
+  }
   .faqContainer {
     padding: 10px 10px 150px 10px;
- 
   }
 
   .faqItem {
-    margin-bottom: 1px solid #CDD6DA;
+    margin-bottom: 1px solid #cdd6da;
   }
 
   .faqItem .faqNumber {
@@ -147,5 +151,16 @@
     font-size: 18px;
     margin: 0 4px;
   }
+}
 
+@media (min-width: 768px) {
+  .containerTitleForm {
+    width: 45%;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+  .containerTitleForm {
+    width: 80%;
+  }
 }

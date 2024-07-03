@@ -21,3 +21,5 @@
 @import "@/app/styles/containers/programacao.module.css";
 @import "@/app/styles/containers/pcontato.module.css";
 @import "@/app/styles/containers/pSatsParty.module.css";
+@import "../../styles/containers/politica.module.css";
+
