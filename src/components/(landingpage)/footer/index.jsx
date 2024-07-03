@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div>
             <p>Satsconf. &copy; 2024 </p>
-            <Link href="">Política de Privacidade</Link>
+            <Link href="https://satsconf24.vercel.app/politica">Política de Privacidade</Link>
           </div>
           <div className="collumn">
             <h2>Quer se envolver?</h2>

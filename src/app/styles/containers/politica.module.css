@@ -1,0 +1,28 @@
+#politica {
+    width: 100%;
+    height: auto;
+}
+
+.containerPolitica {
+    width: 950px;
+    max-width: 100%;
+    margin: 16px auto;
+    font-size: 1rem;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.containerPolitica h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.containerPolitica h2, ul li {
+    color: var(--white);
+}
+
+.boxPolitica {
+    margin: 10px 10px 100px 10px;
+}
+
