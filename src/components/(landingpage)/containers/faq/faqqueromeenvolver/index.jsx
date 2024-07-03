@@ -74,7 +74,7 @@ const data = [
     answer:
     (
     <>
-    <p>Na Satsconf, nós nos orgulhamos de apresentar palestrantes relevantes e influentes da comunidade Bitcoin. Nossa equipe de curadoria está sempre em busca de novas vozes e perspectivas. Portanto, se você tem interesse em compartilhar seu conhecimento e experiências, gostaríamos de ouvir de você! Envie um e-mail para info@satsconf.com.br com uma mini-bio e o tópico que gostaria de abordar. Nossa equipe avaliará sua proposta e, caso haja espaço disponível, poderá convidá-lo para palestrar na Satsconf 2023.</p>
+    <p>Na Satsconf, nós nos orgulhamos de apresentar palestrantes relevantes e influentes da comunidade Bitcoin. Nossa equipe de curadoria está sempre em busca de novas vozes e perspectivas. Portanto, se você tem interesse em compartilhar seu conhecimento e experiências, gostaríamos de ouvir de você! Envie um e-mail para info@satsconf.com.br com uma mini-bio e o tópico que gostaria de abordar. Nossa equipe avaliará sua proposta e, caso haja espaço disponível, poderá convidá-lo para palestrar na Satsconf 2024.</p>
     </>
     ),
   },
@@ -94,7 +94,7 @@ const data = [
     answer:
     (
     <>
-    <p>Nós adoramos e valorizamos o trabalho de jornalistas e produtores de conteúdo, e acreditamos que a cobertura do evento é uma ótima maneira de expandir o alcance das informações e discussões que acontecem na Satsconf. Se você está interessado em cobrir a Satsconf 2023, entre em contato conosco pelo e-mail info@satsconf.com.br.</p>
+    <p>Nós adoramos e valorizamos o trabalho de jornalistas e produtores de conteúdo, e acreditamos que a cobertura do evento é uma ótima maneira de expandir o alcance das informações e discussões que acontecem na Satsconf. Se você está interessado em cobrir a Satsconf 2024, entre em contato conosco pelo e-mail info@satsconf.com.br.</p>
     <br />
     <p>Por favor, inclua no e-mail: Seu nome completo; A publicação/empresa para a qual você está trabalhando; Informações sobre o tipo de cobertura que você planeja fazer (por exemplo, se é uma reportagem, entrevista, live no Instagram, etc.); </p>
     <br />

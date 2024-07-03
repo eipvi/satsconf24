@@ -62,7 +62,7 @@ const data = [
       "A Satsconf é um evento feito para todos aqueles que têm interesse em aprender mais sobre o Bitcoin, se conectar com a comunidade e explorar temas como liberdade, soberania individual e a evolução da internet do dinheiro. É uma oportunidade única de absorver conhecimento de especialistas nacionais e internacionais, além de estabelecer conexões valiosas para o seu crescimento pessoal e profissional.",
   },
   {
-    question: "Por que ir a Satsconf?",
+    question: "Por que ir à Satsconf?",
     answer:
       "Ir à Satsconf é entrar em um universo vibrante do Bitcoin, com especialistas e entusiastas. Lá, você expande seu conhecimento sobre o ativo, explora as tendências mais recentes e contribui para o futuro financeiro digital. É o ponto de encontro ideal para networking, conexões valiosas e inspiração em finanças descentralizadas. Se quer atualização, networking e imersão na comunidade Bitcoin, a Satsconf é o lugar.",
   },

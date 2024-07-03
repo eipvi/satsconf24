@@ -43,7 +43,7 @@ const Palestrantes = ({ children }) => {
               <Card />
               
             </div>
-            <div className="container-btn-palestrantes padding-bottom-30">
+            <div className="container-btn-palestrantes padding-bottom-60 btnContainerConvidadosPalestrantes">
             <BtnNovidades >Mais palestrantes em breve!</BtnNovidades>
             </div>
          

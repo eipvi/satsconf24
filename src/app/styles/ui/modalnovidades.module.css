@@ -19,7 +19,7 @@
 
 .containerModalNovidades {
   width: 500px;
-  height: 436px;
+  height: 458px;
   background-color: var(--white);
   border-radius: 27px;
   margin: 0 auto;
@@ -29,15 +29,15 @@
 }
 
 .headerformulario img {
-  width: 109px;
-  height: 136px;
+  width: 216px;
+  height: 260px;
   position: relative;
-  margin: 20px -12px 46px -39px;
+  margin: 20px -100px 46px -100px;
 }
 
 .headerformulario {
   width: 100%;
-  height: 4rem;
+  height: 5rem;
   background: linear-gradient(90deg, #b32fe0 0%, #ffb126 115.16%);
   border-radius: 25px 25px 0 0;
   display: flex;
@@ -63,6 +63,8 @@
 .modal-header-exit-ingresso,
 button {
   cursor: pointer;
+  padding-bottom: 22px;
+
 }
 .containerFormulario {
   margin: 16px 62px;
@@ -126,24 +128,26 @@ button {
 
 @media screen and (max-width: 768px) {
   .containerFormulario {
-    margin: 8px 18px;
+    margin: 26px 34px;
   }
 
   .containerModalNovidades {
-    width: 100%;
-    height: 476px;
+    width: 92%;
+    height: 532px;
   }
 
   .formBox button {
     margin: 22px 0;
     padding: 20px 28px;
   }
-
+  .headerformulario h2 {
+    font-size: 1.4rem;
+  }
   .containerFormulario h3 {
     font-size: 1rem;
   }
 
   .headerformulario img {
-    margin: 0 -36px 46px -39px;
+    margin: 0 -98px 46px -84px;
   }
 }

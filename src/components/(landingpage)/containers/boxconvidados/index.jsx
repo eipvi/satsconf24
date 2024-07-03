@@ -9,7 +9,7 @@ const BoxConvidados = () => {
       id: 1,
       name: "Alex Gladstein",
       description:
-        "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre porque o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
+        "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
       image: "./alex-gladstein.jpeg",
       skills: "Human Rights Foundation",
       socialMedia: {
@@ -76,7 +76,7 @@ const BoxConvidados = () => {
       id: 4,
       name: "Carol Souza",
       description:
-        "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método tem como objetivo o desenvolvimento da soberania financeira e intelectual.",
+        "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.",
       image: "./selfie-carol.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
@@ -109,7 +109,7 @@ const BoxConvidados = () => {
       id: 6,
       name: "Diego Kolling",
       description:
-        "Apaixonado por tecnologia e finanças, Diego é um prolífico educador de Bitcoin e Lightning. Além de ter um canal educacional no Youtube, gere a comunidade NodeRunners Brasil, voltada a educação de operadores de nodes da Lightning Network.",
+        "Apaixonado por tecnologia e finanças, Diego é um prolífico educador de Bitcoin e Lightning. Além de ter um canal educacional no Youtube, gere a comunidade NodeRunners Brasil, voltada à educação de operadores de nodes da Lightning Network.",
       image: "./diego-Kolling.png",
       skills: "NodeRunners Brasil",
       socialMedia: {
@@ -126,7 +126,7 @@ const BoxConvidados = () => {
       id: 7,
       name: "Kaká Furlan",
       description:
-        "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método tem como objetivo o desenvolvimento da soberania financeira e intelectual.    ",
+        "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.    ",
       image: "./selfie-kaka.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
@@ -192,7 +192,7 @@ const BoxConvidados = () => {
       id: 11,
       name: "Ivy Galindo",
       description:
-        "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além de rodar um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
+        "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além disso, roda um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
       image: "./ivy-galindo.jpg",
       skills: "Swan",
       socialMedia: {
@@ -209,7 +209,7 @@ const BoxConvidados = () => {
       id: 12,
       name: "Lucas Ferreira",
       description:
-        "Idealizador da Satsconf, Lightning Evangelist na Lightning Labs, responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
+        "Além de idealizador da Satsconf, Lucas é Lightning Evangelist na Lightning Labs, empresa responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
       image: "./lucas-ferreira.jpg",
       skills: "Lightning Labs / Vinteum",
       socialMedia: {

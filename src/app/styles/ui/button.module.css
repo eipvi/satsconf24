@@ -12,7 +12,7 @@
   box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
   color: var(--white);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .container-btn-palestrantes {
-  padding: 30px 0 79px 0;
+  padding: 1px 0 79px 0;
   margin: auto;
   position: relative;
   z-index: 2;
@@ -43,7 +43,7 @@
 .container-btn-palestrantes .btnNovidades {
   width: 328px;
   height: 64px;
-  margin: 0 auto;
+  margin: -26px auto;
 }
 
 .btnNovidades {
@@ -55,7 +55,7 @@
   box-shadow: none;
   color: var(--white);
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,12 @@
       margin: 10px 0;
     }
 }
+@media screen and (max-width: 768px)  {
+  .btnIngresso, .btnNovidades {
+    font-size: 12px;
+  }
 
+}
 
 @media screen and (min-width: 768px) {
 

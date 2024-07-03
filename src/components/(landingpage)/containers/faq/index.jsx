@@ -63,12 +63,12 @@ const data = [
   },
   {
     question:
-      "O evento será em em que língua?",
+      "O evento será em que idioma?",
     answer:(
     <>
     <p>A Satsconf é um evento internacional, mas destinado principalmente ao público brasileiro. As palestras e painéis são conduzidos principalmente em português, mas também podem ser em inglês ou ocasionalmente em espanhol/portunhol. Para assegurar que todos possam aproveitar ao máximo o evento, oferecemos tradução simultânea de inglês para português.</p>
     <br/>
-    <p>Queremos salientar que estrangeiros são absolutamente bem-vindos na Satsconf. Muitos participantes falam inglês ou espanhol e estão ansiosos para estabelecer conexões mais estreitas entre as comunidades bitcoiner brasileira e internacional. Portanto, se você é um falante não-nativo de português, não hesite em participar - a Satsconf é um evento para todos os entusiastas do Bitcoin, independentemente de sua origem ou idioma.</p>
+    <p>Queremos salientar que estrangeiros são absolutamente bem-vindos na Satsconf. Muitos participantes falam inglês ou espanhol e estão ansiosos para estabelecer conexões mais estreitas entre as comunidades bitcoiner brasileira e internacional. Portanto, se você é um falante não nativo de português, não hesite em participar - a Satsconf é um evento para todos os entusiastas do Bitcoin, independentemente de sua origem ou idioma.</p>
     </>
     ),
   },
