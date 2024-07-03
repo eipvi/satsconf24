@@ -112,7 +112,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsKids
                 </Link>
-                <Link href="https://www.satsconf.com.br/satsparty" onClick={handleLinkClickHome}>
+                <Link href="https://satsconf24.vercel.app/satsparty" onClick={handleLinkClickHome}>
                   SatsParty
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
