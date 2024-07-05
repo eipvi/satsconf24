@@ -18,7 +18,7 @@ const BoxCronograma = () => {
           </div>
           <p>
             Palestras, painéis, workshops, competições, jogos, networking,
-            comidas, bebidas, lojas e muito mais.
+            comidas, bebidas, lojas e mais.
           </p>
           <span className="krona-one-regular ">Audio | São Paulo</span>
         </div>

@@ -3,6 +3,7 @@ import "animate.css";
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
 
 import { useState, useEffect } from "react";
+import PlaySatsconf from "../../ui/videos";
 
 const BoxSobre = () => {
   const [selectedIcon, setSelectedIcon] = useState(null);
@@ -43,7 +44,11 @@ const BoxSobre = () => {
           })}
         </div>
         <div className="containerVideo">
-          <img src="/video.png" width="314" height="287" alt="" />
+        <img src="/video.png" width="314" height="450" alt="" />
+        <div className="containerVideoAcima">
+        <PlaySatsconf />
+
+        </div>
         </div>
       </div>
     </section>

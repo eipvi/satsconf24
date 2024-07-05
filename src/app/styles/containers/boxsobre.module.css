@@ -17,6 +17,7 @@
   gap: 25px;
   /* Espaçamento entre os blocos */
   margin: 0 auto;
+  padding: 0;
 }
 .block {
   padding: 0 8rem 0 8rem;
@@ -77,13 +78,33 @@
 }
 
 .containerVideo {
-  width: 300px;
+  position: relative; /* Adicione esta linha para tornar o container o ponto de referência */
+  width: 314px;
+  height: 400px;
   margin: 0 auto;
-  display: block;
 }
+
+.containerVideo img {
+  width: 100%;
+  height: auto;
+}
+
+.containerVideoAcima {
+  position: absolute; /* Posiciona o vídeo de forma absoluta em relação ao container */
+  top: 25px; /* Ajuste conforme necessário */
+  left: 16px; /* Ajuste conforme necessário */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; /* Coloca o vídeo acima da imagem */
+}
+
 @media screen and (max-width: 380px) {
   .boxprincipalSobre {
     width: 200px;
+
   }
 }
 
@@ -119,9 +140,13 @@
 
 @media screen and (min-width: 768px) {
   /* Altere para dois blocos lado a lado em telas maiores */
-
+  .containerVideoAcima {
+    top: 8px;
+    left: 14px;
+  }
   .boxprincipalSobre {
     grid-template-columns: 1fr 1fr;
+    padding: 0 100px 0 0;
   }
 
   .containerVideo {
