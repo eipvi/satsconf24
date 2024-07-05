@@ -12,9 +12,9 @@ const Footer = () => {
           <MeuComponenteLogo /> {/* Use the imported component */}
           </div>
 
-          <div>
+          <div className="footerCopy">
             <p>Satsconf. &copy; 2024 </p>
-            <Link href="https://satsconf24.vercel.app/politica">Política de Privacidade</Link>
+            <Link className="footerLink" href="https://satsconf24.vercel.app/politica">Política de Privacidade</Link>
           </div>
           <div className="collumn">
             <h2>Quer se envolver?</h2>

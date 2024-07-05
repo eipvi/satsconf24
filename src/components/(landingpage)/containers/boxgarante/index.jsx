@@ -39,13 +39,13 @@ const BoxGarante = () => {
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso ao Palco Especial do Hal Finney</p>
+                <p>Acesso ao Palco do Hal Finney</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso às Salas Exclusivas de Workshop</p>
+                <p>Acesso às Salas de Workshop</p>
               </li>
               <li>
                 <div className="icon-garante">
@@ -80,7 +80,7 @@ const BoxGarante = () => {
                   <FiCheckCircle color="white" />
                 </div>
 
-                <p>Todos os acessos do Ingresso Normal</p>
+                <p style={{ fontWeight: 'bold' }}>Todos os acessos do Ingresso Normal</p>
               </li>
               <li>
                 <div className="icon-garante">

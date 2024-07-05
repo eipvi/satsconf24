@@ -157,7 +157,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   Local do Evento
                 </Link>
-                <Link href="/faq" onClick={handleLinkClickHome}>
+                <Link href="/FAQ" onClick={handleLinkClickHome}>
                   FAQ
                 </Link>
               </div>
