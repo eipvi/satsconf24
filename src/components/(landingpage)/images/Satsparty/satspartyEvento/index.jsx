@@ -6,57 +6,21 @@ const SatsPartyImgEvento = () => {
     <div className="BoxSatsParty">
       <div className="ContainerSatsPartyEvento">
         <div className="gallerySatsParty  ">
-          <div className=" img1">
-            <img
-              src="/evento-bitcoin-satsconf-mulheres-bitconheiras.png"
-              alt="Image 1"
-            />
-          </div>
-          <div className=" img2">
-            <img src="/evento-bitcoin-satsconf-sao-paulo.png" alt="Image 2" />
-          </div>
-          <div className=" img4">
-            <img src="/evento-bitcoin-sao-paulo.png" alt="Image 4" />
-          </div>
-          <div className=" img5">
-            <img src="/maior-evento-bitcoin-brasil.png" alt="Image 5" />
-          </div>
-          <div className=" img6">
-            <img src="/bitcoin-evento-satsconf.png" alt="Image 6" />
-          </div>
-          <div className=" img7">
-            <img src="/bitcoin-evento.png" alt="Image 7" />
-          </div>
-          <div className=" img8">
-            <img src="/evento-bitcoin-brasil.png" alt="Image 8" />
-          </div>
-          <div className=" img9">
-            <img src="/evento-satsconf-saiba-mais.png" alt="Image 9" />
-          </div>
-          <div className=" img10">
-            <img src="/comprar-ingresso-bitcoin.png" alt="Image 10" />
-          </div>
-          <div className=" img11">
-            <img src="/comprar-ingresso-bitcoin.png" alt="Image 11" />
-          </div>
-          <div className=" img12">
-            <img src="/quem-somos-nos-satsconf.png" alt="Image 12" />
-          </div>
-          <div className=" img13">
-            <img src="/satsconf-evento-brazil.png" alt="Image 13" />
-          </div>
-       
-          <div className=" img14">
-            <img
-              src="/sats-evento-bitcoin-sp-brazil-sats-conf-evento-bitcoin.png"
-              alt="Image 14"
-            />
-          </div>
-          <div className=" img15">
-            <img
-              src="/sats-evento-bitcoin-sp-brazil-sats-conf-evento-bitcoin.png"
-              alt="Image 15"
-            />
+          <div className="gallery">
+            <img src="/satsconf2023/comprar-ingresso-satsconf.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/satsconf-evento-brasil.png" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/satsconf2023-em-sao-paulo.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/enceramento-sats-conf-evento-btc.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/sats-conf-evento-palestra-bitcoin.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/festa-encerramento-satsconf.jpg"className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/evento-sats-conf.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/evento-bitcoin-sp-brazil.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/sao-paulo-evento-btc-sastconferencia.png" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/palestra-evento-workshop-satsconf.jpg" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/satsconf-2023.png" className="galleryImg" alt="Image 1" />
+            <img src="/satsconf2023/conferencia-bitcoin-brazil.jpg" className="galleryImg" alt="Image 1" />
+
+
           </div>
         </div>
         <div className=" img16 itemSatsPartyEvento ">
@@ -66,7 +30,7 @@ const SatsPartyImgEvento = () => {
               VIP
             </h4>
             <div className="container-btn-satsparty">
-              <BtnIngresso url="/">COMPRAR SEU INGRESSO VIP AGORA </BtnIngresso>
+              <BtnIngresso url="https://satsconf24.vercel.app/ingressos">COMPRAR SEU INGRESSO VIP AGORA </BtnIngresso>
             </div>
           </div>
         </div>
