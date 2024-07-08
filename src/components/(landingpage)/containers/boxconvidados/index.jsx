@@ -10,7 +10,7 @@ const BoxConvidados = () => {
       name: "Alex Gladstein",
       description:
         "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
-      image: "./alex-gladstein.jpeg",
+      image: "/palestrantes/alex-gladstein.jpeg",
       skills: "Human Rights Foundation",
       socialMedia: {
         twitter: "https://twitter.com/gladstein",
@@ -43,7 +43,7 @@ const BoxConvidados = () => {
           </a>
         </>
       ),
-      image: "./margot-paez.jpg",
+      image: "/palestrantes/margot-paez.jpg",
       skills: "Bitcoin Policy Institute",
       socialMedia: {
         twitter: "https://twitter.com/jyn_urso",
@@ -60,7 +60,7 @@ const BoxConvidados = () => {
       name: "Giacomo Zucco",
       description:
         "Giacomo é consultor/professor do protocolo Bitcoin e do protocolo Lightning Network. Ele passa seu tempo apoiando projetos que considera relevantes para o futuro do Bitcoin, seja como educador, consultor, empreendedor, maximalista ou troll. Anteriormente, ele esteve envolvido na GreenAddress, AssoBIT, BlockchainLab, Bitcoin Magazine. Atualmente ele está promovendo Bitcoin através da Rede Plano B, BTCTimes, Relai, BCademy, Notarify.",
-      image: "./giacomo-zucco.webp",
+      image: "/palestrantes/giacomo-zucco.webp",
       skills: "Plan B Network",
       socialMedia: {
         twitter: "https://twitter.com/giacomozucco",
@@ -77,7 +77,7 @@ const BoxConvidados = () => {
       name: "Carol Souza",
       description:
         "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.",
-      image: "./selfie-carol.jpg",
+      image: "/palestrantes/selfie-carol.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
         twitter: " https://twitter.com/carol_bitcoin",
@@ -93,7 +93,7 @@ const BoxConvidados = () => {
       name: "Rapha Zagury",
       description:
         "Atualmente, Raphael atua como CIO e Head of Research na Swan. Antes de ingressar na Swan, ele fundou e atuou como CFO para Open Co, onde liderou com sucesso a empresa através de várias rodadas de financiamento. Antes da Open Co, Raphael fundou a One Partners, uma boutique de fusões e aquisições e firma de gestão de patrimônio no Brasil. Originalmente do Rio de Janeiro, Brasil, Raphael obteve seu MBA na Yale School of Management e seu diploma de Economia no Instituto Brasileiro de Mercado de Capitais (IBMEC).      ",
-      image: "./rapha.png",
+      image: "/palestrantes/rapha.png",
       skills: "Swan",
       socialMedia: {
         twitter: "https://twitter.com/alphaazeta",
@@ -110,7 +110,7 @@ const BoxConvidados = () => {
       name: "Diego Kolling",
       description:
         "Apaixonado por tecnologia e finanças, Diego é um prolífico educador de Bitcoin e Lightning. Além de ter um canal educacional no Youtube, gere a comunidade NodeRunners Brasil, voltada à educação de operadores de nodes da Lightning Network.",
-      image: "./diego-Kolling.png",
+      image: "/palestrantes/diego-Kolling.png",
       skills: "NodeRunners Brasil",
       socialMedia: {
         twitter: "https://twitter.com/diegokolling",
@@ -127,7 +127,7 @@ const BoxConvidados = () => {
       name: "Kaká Furlan",
       description:
         "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.    ",
-      image: "./selfie-kaka.jpg",
+      image: "/palestrantes/selfie-kaka.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
         twitter: "https://twitter.com/kakafurlan",
@@ -143,7 +143,7 @@ const BoxConvidados = () => {
       name: "Bruno Garcia",
       description:
         "Um dos 50 desenvolvedores com mais contribuições do Bitcoin Core, Bruno é também diretor educacional da Vinteum, um centro de pesquisa e desenvolvimento de Bitcoin sem fins lucrativos dedicado a apoiar os desenvolvedores de Bitcoin no Brasil.",
-      image: "./bruno-garcia.jpeg",
+      image: "/palestrantes/bruno-garcia.jpeg",
       skills: "Bitcoin Core Dev",
       socialMedia: {
         twitter: "https://twitter.com/brrrunog ",
@@ -160,7 +160,7 @@ const BoxConvidados = () => {
       name: "Caio Leta ",
       description:
         "PhD em geologia econômica e isotópica; bitcoin minimalista; fundador do projeto Explica Bitcoin; autor do livro O Mundo Mágico do Bitcoin; Head de Pesquisa e Conteúdo na Bipa.      ",
-      image: "./caio-leta.jpg",
+      image: "/palestrantes/caio-leta.jpg",
       skills: "Bipa",
       socialMedia: {
         twitter: "https://twitter.com/caioleta_",
@@ -177,7 +177,7 @@ const BoxConvidados = () => {
       name: "Steven Roose",
       description:
         "Importante contribuidor open-source para o ecossistema Rust-bitcoin, Ark, e para a rede Liquid.      ",
-      image: "./steven-roose.jpeg",
+      image: "/palestrantes/steven-roose.jpeg",
       skills: "Ark",
       socialMedia: {
         twitter: "https://twitter.com/stevenroose3",
@@ -193,7 +193,7 @@ const BoxConvidados = () => {
       name: "Ivy Galindo",
       description:
         "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além disso, roda um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
-      image: "./ivy-galindo.jpg",
+      image: "/palestrantes/ivy-galindo.jpg",
       skills: "Swan",
       socialMedia: {
         twitter: "https://twitter.com/ivygalindo_",
@@ -210,7 +210,7 @@ const BoxConvidados = () => {
       name: "Lucas Ferreira",
       description:
         "Além de idealizador da Satsconf, Lucas é Lightning Evangelist na Lightning Labs, empresa responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
-      image: "./lucas-ferreira.jpg",
+      image: "/palestrantes/lucas-ferreira.jpg",
       skills: "Lightning Labs / Vinteum",
       socialMedia: {
         twitter: "https://twitter.com/lucasdcf",
@@ -229,7 +229,7 @@ const BoxConvidados = () => {
       name: "Madu",
       description:
         "Educadora, Madu é redatora e entusiasta de Bitcoin, que busca compartilhar todo o aprendizado para outras pessoas, nos mais variados formatos digitais. Já trabalhou com empresas especializadas no setor como: Area Bitcoin, Livecoins, Mercado Bitcoin, Arthur Mining e TC Investimentos.      ",
-      image: "./madulobato.jpg",
+      image: "/palestrantes/madulobato.jpg",
       skills: "Blink",
       socialMedia: {
         twitter: "https://twitter.com/eduardalobatoo",
