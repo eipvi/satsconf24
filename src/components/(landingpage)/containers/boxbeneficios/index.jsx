@@ -8,17 +8,16 @@ const BoxBeneficios = () => {
   const renderizarBotoes = (quantidade) => {
     const botoes = [];
     for (let i = 0; i < quantidade; i++) {
-      botoes.push(<BtnBeneficios key={i}>Lightning Network</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>E-cash</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Cypherpunks</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Mineração</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Freedom Money</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Nostr</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 4}>Bitcoin</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Networking</BtnBeneficios>);
-
+      botoes.push(<BtnBeneficios key={`btn-1-${i}`}>Lightning Network</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-2-${i}`}>E-cash</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-3-${i}`}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-4-${i}`}>Cypherpunks</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-5-${i}`}>Mineração</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-6-${i}`}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-7-${i}`}>Freedom Money</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-8-${i}`}>Nostr</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-9-${i}`}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={`btn-10-${i}`}>Networking</BtnBeneficios>);
     }
     return botoes;
   };
@@ -29,7 +28,7 @@ const BoxBeneficios = () => {
         <div className="containerBotoes sc-flex-center font-white sc-gap-32">
           {[...Array(1)].map((_, index) => (
             <div
-              key={index}
+              key={`linha-1-${index}`}
               className="linhaBotoes sc-flex-center font-white sc-gap-32"
             >
               {renderizarBotoes(4)}
@@ -39,7 +38,7 @@ const BoxBeneficios = () => {
         <div className="containerBotoes font-white sc-gap-32">
           {[...Array(1)].map((_, index) => (
             <div
-              key={index}
+              key={`linha-2-${index}`}
               className="linhaBotoes sc-flex-center font-white sc-gap-32"
             >
               {renderizarBotoes(4)}
