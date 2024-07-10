@@ -2,7 +2,7 @@ const messages = {
     en: {
         translations: {
             data: {
-                app: 'NOVEMBER 8-9 | SÃO PAULO'
+                app: 'NOVEMBER 8-9'
             },
             titles: {
                 itWorks: 'BRAZIL\'S LARGEST 100% BITCOIN EVENT'
@@ -11,6 +11,9 @@ const messages = {
                 purchase: 'BUY TICKET',
                 news: 'RECEIVE UPDATES'
             },
+            location: {
+                address: 'Audio | São Paulo'
+            }
         }
     }
 }
