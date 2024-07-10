@@ -8,6 +8,8 @@ import { usePathname } from "next/navigation";
 import { metadata } from "./metadata";
 import { ModalProvider } from "@/providers/ModalContext";
 import { DadosProvider } from "@/providers/DadosContext";
+import { CookieProvider } from "@/providers/CookieContext";
+import Cookies from "@/utils/cookies";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -40,10 +42,13 @@ export default function RootLayout({ children }) {
           <>
           <DadosProvider>
             <ModalProvider>
+            <CookieProvider>
               <Header />
             
               {children}             
               <Footer />
+              <Cookies />
+              </CookieProvider>
             </ModalProvider>
             </DadosProvider>
           </>
