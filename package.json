@@ -10,6 +10,7 @@
     "server": "json-server --watch data/db.json"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@getbrevo/brevo": "^2.1.1",
     "@typeform/embed-react": "^3.17.0",
     "animate.css": "^4.1.1",
@@ -17,6 +18,7 @@
     "express": "^4.19.2",
     "i18next": "^23.11.5",
     "i18next-browser-languagedetector": "^8.0.0",
+    "js-cookie": "^3.0.5",
     "json-server": "^1.0.0-beta.1",
     "next": "14.2.1",
     "nodemon": "^3.1.3",
