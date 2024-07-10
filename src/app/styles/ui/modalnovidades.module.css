@@ -109,7 +109,7 @@ button {
 }
 
 .formBox button {
-  margin: 16px 0;
+  margin: 8px 0;
   padding: 16px 28px;
   background: linear-gradient(90deg, #b32fe0 0%, #ffb126 115.16%);
   border-radius: 44px;

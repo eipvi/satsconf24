@@ -2,6 +2,7 @@
 import React, { useState, useContext } from "react"; //Dentro do ModalNovidades, os hooks useState são utilizados para gerenciar os estados locais do formulário (name, email, number).
 import { ModalContext } from "@/providers/ModalContext";
 import { useDados } from "@/providers/DadosContext";
+import cookie from "js-cookie";
 
 //O ModalNovidades é renderizado condicionalmente pelo ModalProvider com base no estado visible.
 const ModalNovidades = ({ user }) => {
@@ -42,6 +43,11 @@ const ModalNovidades = ({ user }) => {
     setError("");
 
     console.log("ENVIANDO O FORMULARIO");
+
+    if (!name || !email || !number) {
+      setError("Por favor, preencha todos os campos.");
+      return;
+    }
     //Dentro de handleSubmit, os valores dos campos do formulário são lidos dos estados locais (name, email, number) e agrupados em um objeto newProduct.
     const newDados = { name, email, number };
 
@@ -112,7 +118,14 @@ const ModalNovidades = ({ user }) => {
                   value={number}
                 />
               </div>
-              <button type="submit">SE INSCREVER PARA RECEBER NOVIDADES</button>
+              {error && <p style={{ color: "red", fontSize:"12px", textAlign: "center" }}>{error}</p>}
+              <button type="submit" onClick={() => {
+                cookie.set("newsletter_subscription", "subscription_token_24ls", {
+                  httpOnly: true,
+                  secure: process.env.NODE_ENV === 'production',
+                  sameSite: 'strict'
+                })
+              }}>SE INSCREVER PARA RECEBER NOVIDADES</button>
             </form>
           </div>
         </div>
