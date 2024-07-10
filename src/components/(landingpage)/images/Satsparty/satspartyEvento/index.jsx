@@ -1,6 +1,7 @@
 import Link from "next/link";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 
+
 const SatsPartyImgEvento = () => {
   return (
     <div className="BoxSatsParty">

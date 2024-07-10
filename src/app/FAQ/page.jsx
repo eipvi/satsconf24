@@ -41,6 +41,7 @@ const Faq = ({ children }) => {
           organização ou mesmo outro participante do evento podem te ajudar.
         </p>
       </div>
+
     </div>
   );
 };

@@ -30,6 +30,7 @@ const Manutencao = () => {
             </Link>{' '}
             e fique sabendo de todas as novidades em primeira mão!</p>
         </div>
+        
       </div>
     )
 }
