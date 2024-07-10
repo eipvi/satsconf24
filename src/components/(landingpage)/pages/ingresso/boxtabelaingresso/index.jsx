@@ -1,6 +1,7 @@
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import { FiCheckCircle, FiMinus } from "react-icons/fi";
+import cookie from "js-cookie";
 
 const BoxTabelaIngresso = () => {
   return (
@@ -133,7 +134,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso a SATSPARTY open bar e open food
+                Acesso a SATSPARTY (open bar e open food)
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -146,11 +147,17 @@ const BoxTabelaIngresso = () => {
           </tbody>
         </table>
         <div className="sc-gap-8 containerBtnIngresso">
-          <BtnIngresso url="https://satsconf24.vercel.app/ingressos">
+          <BtnIngresso url="https://satsconf24.vercel.app/ingressos" onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
             COMPRAR INGRESSO
           </BtnIngresso>
           {/* botão do container principal */}
-          <BtnNovidades url="/">COMPRAR EM GRUPO</BtnNovidades>
+          <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">COMPRAR EM GRUPO</BtnNovidades>
         </div>
       </div>
     </div>

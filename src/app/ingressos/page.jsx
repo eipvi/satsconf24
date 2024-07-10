@@ -4,6 +4,7 @@ import BoxTabelaIngresso from "@/components/(landingpage)/pages/ingresso/boxtabe
 import ImageIgresso from "@/components/(landingpage)/images/ImageIngresso";
 import IngressoBtn from "@/components/(landingpage)/ui/modal/modalBtn";
 import FAQIngresso from "@/components/(landingpage)/pages/ingresso/faqingresso";
+import cookie from "js-cookie";
 
 const Ingressos = ({ children }) => {
   return (
@@ -21,7 +22,13 @@ const Ingressos = ({ children }) => {
                 <h1>INGRESSOS SATSCONF</h1>
                 {/* gap de 8 com container de botão */}
                 <div className="sc-gap-8 container-btn">
-                  <BtnIngresso url="https://satsconf24.vercel.app/ingressos">
+                  <BtnIngresso url="https://satsconf24.vercel.app/ingressos"onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
                     COMPRAR INGRESSO
                   </BtnIngresso>
                   {/* botão do container principal */}

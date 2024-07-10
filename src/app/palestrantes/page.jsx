@@ -7,6 +7,7 @@ import { ModalContext } from "@/providers/ModalContext";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
+import cookie from "js-cookie";
 
 const Palestrantes = ({ children }) => {
   const { handleModalVisible } = useContext(ModalContext);
@@ -30,7 +31,13 @@ const Palestrantes = ({ children }) => {
                 </h2>
               </div>
               <div className="sc-gap-8 container-btn">
-                <BtnIngresso url="https://satsconf.vercel.app/ingressos">
+                <BtnIngresso url="https://satsconf.vercel.app/ingressos" onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
                   COMPRAR INGRESSO
                 </BtnIngresso>
                 {/* botão do container principal */}

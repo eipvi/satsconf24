@@ -1,4 +1,5 @@
 import Link from "next/link";
+import cookie from "js-cookie";
 
 const CompraBtc = () => {
   return (
@@ -16,7 +17,13 @@ const CompraBtc = () => {
         <li>R$197,50</li>
         <li>
           <div className="buttonIngressoComprar">
-            <Link href="https://ingresso.satsconf.com.br/cart/41678531788935:1?storefront=true">
+            <Link href="https://ingresso.satsconf.com.br/cart/41678531788935:1?storefront=true" onClick={() =>{
+            cookie.set("btn_normal_pass", "button_buy_785846", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
               Comprar
             </Link>
           </div>
@@ -32,7 +39,13 @@ const CompraBtc = () => {
         <li>R$592,50</li>
         <li>
           <div className="buttonIngressoComprar">
-            <Link href="https://ingresso.satsconf.com.br/cart/41678547320967:1?storefront=true">
+            <Link href="https://ingresso.satsconf.com.br/cart/41678547320967:1?storefront=true" onClick={() =>{
+            cookie.set("btn_vip_pass", "button_buy_584581", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
               Comprar
             </Link>
           </div>
